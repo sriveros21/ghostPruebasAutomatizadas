@@ -53,6 +53,25 @@ test.describe.serial("Post E2E Scenarios", () => {
       await expect(updateButton).toBeDisabled();
       
     });
+
+    test('Config settings post', async ({ page }) => {
+        
+      await page.getByText('This is a edition of the post').click();
+      await expect(page).toHaveURL(/.*editor/);
+
+      // Config settings of post
+      await page.getByTitle('Settings').click();
+      await page.locator('id=url').fill('my-favourite-post');
+      await page.getByPlaceholder('YYYY-MM-DD').fill('2022-11-10');
+      await page.locator('.input-toggle-component').click();
+      
+      await page.goto('/my-favourite-post');
+      await expect(page).toHaveTitle(/This is a edition of the post/);
+
+      await page.locator('.gh-head-logo').click();
+      expect(page.getByText('Featured')).toBeVisible();
+      
+    });
   
     test('Delete post', async ({ page }) => {
     
