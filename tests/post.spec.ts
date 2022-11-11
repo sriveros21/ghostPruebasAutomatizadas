@@ -88,6 +88,33 @@ test.describe.serial("Post E2E Scenarios", () => {
       expect(tablePosts).toEqual(2);
     });
   
+    test('Create a scheduled post', async ({ page }) => {
+    
+      await page.locator('span',{hasText: 'New post'}).click();
+      await expect(page).toHaveURL(/.*editor/);
+    
+      // Creation of post
+      await page.getByPlaceholder('Post title').fill('This is a new scheduled post');
+      await page.locator('[data-placeholder="Begin writing your post..."]').fill('Once upon a time a scheduled post...')
+      await page.getByText('Publish').click();
+      await page.getByText('Right now').click();
+      await page.getByText('Schedule for later').click();
+      await page.getByPlaceholder('YYYY-MM-DD').fill('2022-11-25');
+
+      
+      const reviewButton = page.locator('button', {hasText: 'Continue, final review →'});
+      await expect(reviewButton).toBeVisible();
+
+      // Publishing post
+      await reviewButton.click();
+      await page.locator('button', {hasText: 'Publish post, on November 25th'}).dispatchEvent('click')
+      await expect(page.locator('.green', {hasText:'All set!'})).toBeVisible();
+
+      await page.goto('/ghost/#/posts?type=scheduled');
+      const tablePosts = await page.locator('ol>li').count();
+      expect(tablePosts).toEqual(1);
+    });
+
     test.afterAll(async ({ page }) => {
       page.close();
     });
