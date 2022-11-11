@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 
-test.describe("Member E2E Scenarios", () => {
+test.describe.serial("Member E2E Scenarios", () => {
   test.beforeEach(async ({ page }) => {
     // Go to the starting url before each test.
     await page.goto("");
@@ -68,6 +68,10 @@ test.describe("Member E2E Scenarios", () => {
     await page.locator('.gh-btn', {hasText:'Delete member'}).click();
     const tableMembers = page.locator('tbody tr');
     expect(await tableMembers.count()).toEqual(0);
+  });
+
+  test.afterAll(async ({ page }) => {
+    page.close();
   });
 
 });
