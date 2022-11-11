@@ -1,0 +1,21 @@
+{
+  "name": "ghostPruebasAutomatizadas",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas para el sitio Ghost con Playwright y Kraken",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriveros21/ghostPruebasAutomatizadas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sriveros21/ghostPruebasAutomatizadas/issues"
+  },
+  "homepage": "https://github.com/sriveros21/ghostPruebasAutomatizadas#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}
