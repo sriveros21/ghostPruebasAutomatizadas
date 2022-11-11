@@ -45,6 +45,18 @@ test.describe.serial("Page E2E Scenarios", () => {
         await page.getByText('Update').click();
     });
 
+    test('Config settings page', async ({ page }) => {
+        await page.getByText('Pais').click();
+        const breadcrumb = await page.locator('.gh-editor-post-status').textContent();
+        expect(breadcrumb).toContain("Published");
+
+        // Config settings of page
+        await page.locator('.settings-menu-toggle.gh-btn.gh-btn-editor.gh-btn-icon.icon-only.gh-btn-action-icon').click();
+        await page.locator('id=url').fill('pais');
+        await page.getByPlaceholder('YYYY-MM-DD').fill('2022-11-11');
+        await page.locator('.input-toggle-component').click();
+    });
+
     test('Delete a page', async ({ page }) => {
         await page.getByText('Pais').click();
         const breadcrumb = await page.locator('.gh-editor-post-status').textContent();
