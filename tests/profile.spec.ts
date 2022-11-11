@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe.serial("Post E2E Scenarios", () => {
+test.describe.serial("Profile E2E Scenario", () => {
     test.beforeEach(async ({ page }) => {
       // Go to the starting url before each test.
       await page.goto("");
@@ -24,7 +24,7 @@ test.describe.serial("Post E2E Scenarios", () => {
       // Expects to be in the staff section
       await expect(page).toHaveTitle(/Staff - User - HyperS/);
     
-      // Creation of post
+      // Edition of profile
       await page.locator('id=user-name').fill('Sergio Andres');
       await page.locator('id=user-slug').fill('Sriveros7');
       await page.locator('id=user-location').fill('Colombia');
