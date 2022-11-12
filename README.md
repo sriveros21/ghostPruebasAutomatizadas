@@ -2,11 +2,6 @@
 Pruebas automatizadas para el sitio Ghost con Playwright y Kraken.
 
 ---
-## Integrantes del Grupo 
-- Carlos Tovar c.tovarb@uniandes.edu.co
-- Helena Patarroyo h.patarroyo@uniandes.edu.co
-- Sebastian Arango js.arangom1@uniandes.edu.co
-- Sergio Riveros s.riverosg@uniandes.edu.co
 
 ## Funcionalidades
 Las 5 funcionalidades implementadas de la aplicación bajo pruebas son:
@@ -134,4 +129,51 @@ A continuación, se describen los pasos a seguir para la correcta ejecución de 
 ## Pruebas con Kraken:
 A continuación, se describen los pasos a seguir para la correcta ejecución de las pruebas con Kraken:
 
-...
+### Crear tag / Editar tag / Borrar tag:
+1. Ir a la carpeta kraken > features, allí se encuentra un archivo por cada acción (1_create_tag.feature, 2_edit_tag.feature, 3_config_page.feature,  3_delete_tag.feature)
+2. Cada archivo coniene instrucciones dadas por el patrón GivenWhenThen y cada paso se define en el archivo en la ruta kraken > features > web > step_definitions > step.js
+3. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
+
+### Crear page / Editar page / Config settings page / Borrar page:
+1. Ir a la carpeta kraken > features, allí se encuentra un archivo por cada acción (1_create_page.feature, 2_edit_page.feature, 3_delete_page.feature)
+2. Cada archivo coniene instrucciones dadas por el patrón GivenWhenThen y cada paso se define en el archivo en la ruta kraken > features > web > step_definitions > step.js
+3. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
+
+### Crear integración / Editar integración / Borrar integración:
+1. Ir a la carpeta kraken > features, allí se encuentra un archivo por cada acción (1_create_integration.feature, 2_edit_integration.feature, 3_delete_integration.feature)
+2. Cada archivo coniene instrucciones dadas por el patrón GivenWhenThen y cada paso se define en el archivo en la ruta kraken > features > web > step_definitions > step.js
+3. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
+
+### Crear member / Editar member / Borrar member:
+1. Ir a la carpeta kraken > features, allí se encuentra un archivo por cada acción (1_create_member.feature, 2_edit_member.feature, 3_delete_member.feature)
+2. Cada archivo coniene instrucciones dadas por el patrón GivenWhenThen y cada paso se define en el archivo en la ruta kraken > features > web > step_definitions > step.js
+3. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
+
+### Crear post / Editar post / Config settings post / Borrar post:
+1. Ir a la carpeta kraken > features, allí se encuentra un archivo por cada acción (1_create_post.feature, 2_edit_post.feature, 0_post_setting.feature,  3_delete_post.feature)
+2. Cada archivo coniene instrucciones dadas por el patrón GivenWhenThen y cada paso se define en el archivo en la ruta kraken > features > web > step_definitions > step.js
+3. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
+
+### Editar perfil de usuario:
+1. Ir a la carpeta kraken > features, allí se encuentra un archivo 2_edit_user.feature
+2. El archivo coniene instrucciones dadas por el patrón GivenWhenThen y cada paso se define en el archivo en la ruta kraken > features > web > step_definitions > step.js
+3. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
+
+### Sign in:
+1. Ir a la carpeta kraken > features, allí se encuentra un archivo 4_sign_up.feature
+2. El archivo coniene instrucciones dadas por el patrón GivenWhenThen y cada paso se define en el archivo en la ruta kraken > features > web > step_definitions > step.js
+3. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
+
+### Guía de ejecución
+1. Se debe levantar la instancia de Ghost de forma local, para esto, se debe ir a la carpeta donde se tiene instalado Ghost y ejecutar el comando "ghost start". La instancia estará en "http://localhost:2368/ghost/".
+2. Se debe tener presente que la instancia de Ghost debe estar arriba. Si las credenciales de Ghost local son diferentes, se deben cambiar en el archivo kraken > properties.json, de lo contrario fallará por credenciales.
+3. En la carpeta raíz de kraken, ejecutar el siguiente comando para instalar las dependencias
+> npm install
+4. validar que las variables de entorno están configuradas corriendo el siguiente comando
+> ./node_modules/kraken-node/bin/kraken-node doctor
+5. Si alguno de los resultados del comando anterior aparece como [Not Installed] se debe descargar Android Studio y setear las variables de entorno
+> export ANDROID_HOME=/Users/<usuario>/Library/Android/sdk
+> export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home/bin/
+> export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+6. Desde la carpeta raiz ejecutar el siguiente comando, se abrirá una ventana de Chrome y las pruebas empezarán a correr.
+> ./node_modules/kraken-node/bin/kraken-node run
