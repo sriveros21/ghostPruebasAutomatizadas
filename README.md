@@ -14,8 +14,8 @@ Las 5 funcionalidades implementadas de la aplicación bajo pruebas son:
 
 ---
 
-## Escenarios de prueba para Playwright
-Los 20 escenarios de prueba (ordenados por funcionalidad) realizados con la herramienta Playwright son:
+## Escenarios de prueba
+Los 20 escenarios de prueba (ordenados por funcionalidad):
 
 ### Crear:
 01. Crear miembro
@@ -46,11 +46,6 @@ Los 20 escenarios de prueba (ordenados por funcionalidad) realizados con la herr
 ### Settings:
 19. Configuración settings de post
 20. Configuración settings de page
-
----
-
-## Escenarios de prueba para Kraken
-...
 
 ---
 
