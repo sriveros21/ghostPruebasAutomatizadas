@@ -25,7 +25,7 @@ Los 20 escenarios de prueba (ordenados por funcionalidad) realizados con la herr
 05. Crear integración
 06. Crear post programado
 
-### Editar: 
+### Editar: 
 07. Editar miembro
 08. Editar tag
 09. Editar page
