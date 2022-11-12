@@ -349,7 +349,7 @@ When('I click schedule post', async function() {
 })
 
 When('I click your profile', async function() {
-    let element = await this.driver.$('a[href="#/settings/staff/test/"]');
+    let element = await this.driver.$('/html/body/div[1]/div/ul/li[4]/a');
     return await element.click();
 })
 
