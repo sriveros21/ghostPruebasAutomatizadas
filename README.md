@@ -2,6 +2,13 @@
 Pruebas automatizadas para el sitio Ghost con Playwright y Kraken.
 
 ---
+## Integrantes del Grupo 
+- Carlos Tovar c.tovarb@uniandes.edu.co
+- Helena Patarroyo h.patarroyo@uniandes.edu.co
+- Sebastian Arango js.arangom1@uniandes.edu.co
+- Sergio Riveros s.riverosg@uniandes.edu.co
+
+---
 
 ## Funcionalidades
 Las 5 funcionalidades implementadas de la aplicación bajo pruebas son:
