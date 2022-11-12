@@ -175,12 +175,12 @@ A continuación, se describen los pasos a seguir para la correcta ejecución de 
 1. Se debe levantar la instancia de Ghost de forma local, para esto, se debe ir a la carpeta donde se tiene instalado Ghost y ejecutar el comando "ghost start". La instancia estará en "http://localhost:2368/ghost/".
 2. Se debe tener presente que la instancia de Ghost debe estar arriba. Si las credenciales de Ghost local son diferentes, se deben cambiar en el archivo kraken > properties.json, de lo contrario fallará por credenciales.
 3. En la carpeta raíz de kraken, ejecutar el siguiente comando para instalar las dependencias
-> npm install
+`` npm install ``
 4. validar que las variables de entorno están configuradas corriendo el siguiente comando
-> ./node_modules/kraken-node/bin/kraken-node doctor
+`` ./node_modules/kraken-node/bin/kraken-node doctor ``
 5. Si alguno de los resultados del comando anterior aparece como [Not Installed] se debe descargar Android Studio y setear las variables de entorno
-> export ANDROID_HOME=/Users/<usuario>/Library/Android/sdk
-> export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home/bin/
-> export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+`` export ANDROID_HOME=/Users/<usuario>/Library/Android/sdk`` 
+`` export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home/bin/ ``
+`` export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools ``
 6. Desde la carpeta raiz ejecutar el siguiente comando, se abrirá una ventana de Chrome y las pruebas empezarán a correr.
-> ./node_modules/kraken-node/bin/kraken-node run
+`` ./node_modules/kraken-node/bin/kraken-node run ``
