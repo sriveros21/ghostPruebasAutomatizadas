@@ -228,7 +228,7 @@ Then('I click first post', async function () {
 });
 
 Then('I click edit post', async function () {
-    let element = await this.driver.$("/html/body/div[2]/div/main/section/div[1]/header/div/div[2]/a");
+    let element = await this.driver.$("/html/body/div[2]/div/main/section/div[1]/header/div/div[2]/a/span");
     return await element.click();
 });
 
