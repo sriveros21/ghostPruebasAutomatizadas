@@ -12,6 +12,8 @@ Scenario: Como usuario del sistema quiero crear un post
   And I wait for 15 seconds
   Then I click posts link
   And I wait for 15 seconds
+  And I click new post
+  And I wait for 15 seconds
   And I enter post title "My First Post"
   And I wait for 10 seconds
   And I enter post description "This is the description of this test post"

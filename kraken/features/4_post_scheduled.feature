@@ -10,7 +10,9 @@ Scenario: Como usuario del sistema quiero crear un post
   And I wait for 2 seconds
   And I click sign in
   And I wait for 15 seconds
-  And I click posts link
+  Then I click posts link
+  And I wait for 15 seconds
+  And I click new post
   And I wait for 15 seconds
   And I enter post title "Scheduled Post"
   And I wait for 10 seconds

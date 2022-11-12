@@ -188,7 +188,7 @@ When('I click signout', async function() {
 })
 
 When('I click new post', async function() {
-    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/div/section/div[1]/ul[2]/li[1]/a[2]/span/svg');
+    let element = await this.driver.$('a[href="#/editor/post/"]');
     return await element.click();
 })
 
