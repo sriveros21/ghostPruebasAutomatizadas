@@ -178,17 +178,17 @@ Then('I click on delete confirm integration button', async function() {
 // -----------------------------------
 
 When('I click userpic', async function() {
-    let element = await this.driver.$('#ember39');
+    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/div/section/div[2]/div/div/div[1]/div[1]/div/div');
     return await element.click();
 })
 
 When('I click signout', async function() {
-    let element = await this.driver.$('#ember78');
+    let element = await this.driver.$('/html/body/div[1]/div/ul/li[9]/a');
     return await element.click();
 })
 
 When('I click new post', async function() {
-    let element = await this.driver.$('#ember26');
+    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/div/section/div[1]/ul[2]/li[1]/a[2]/span/svg');
     return await element.click();
 })
 
@@ -218,7 +218,7 @@ When('I click post now', async function() {
 })
 
 When('I click post section', async function() {
-    let element = await this.driver.$('#ember25');
+    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/div/section/div[1]/ul[2]/li[1]/a[1]');
     return await element.click();
 })
 
