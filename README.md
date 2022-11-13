@@ -11,13 +11,16 @@ Pruebas automatizadas para el sitio Ghost con Playwright y Kraken.
 ---
 
 ## Funcionalidades
-Las 5 funcionalidades implementadas de la aplicación bajo pruebas son:
+Las funcionalidades implementadas de la aplicación bajo pruebas son:
 
-1. Crear
-2. Editar
-3. Borrar
+1. Posts
+2. Pages
+3. Tags
 4. Sign in
 5. Settings
+6. Members
+7. Integrations
+8. Profile
 
 ---
 
@@ -64,61 +67,61 @@ A continuación, se describen los pasos a seguir para la correcta ejecución de 
 1. Ir a la carpeta playwright > playwright-test > tag.spec.ts
 2. En el interior, se puede encontrar:
 3. Instrucción beforeEach, la cual contiene los pasos previos para la ejecución, tales como las credenciales de inicio de sesión en Ghost y su instrucción de clic para ingresar; el enrutamiento a la página o sección de la prueba; y el título de la página de la prueba.
-4. Método para la prueba de la funcionalidad "Crear" y el escenario "Crear tag".
-5. Método para la prueba de la funcionalidad "Editar" y el escenario "Editar tag".
-6. Método para la prueba de la funcionalidad "Borrar" y el escenario "Borrar tag".
+4. Método para la prueba de la funcionalidad "Tags" y el escenario "Crear tag".
+5. Método para la prueba de la funcionalidad "Tags" y el escenario "Editar tag".
+6. Método para la prueba de la funcionalidad "Tags" y el escenario "Borrar tag".
 7. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
 
 ### Crear page / Editar page / Config settings page / Borrar page:
 1. Ir a la carpeta playwright > playwright-test > page.spec.ts
 2. En el interior, se puede encontrar:
 3. Instrucción beforeEach, la cual contiene los pasos previos para la ejecución, tales como las credenciales de inicio de sesión en Ghost y su instrucción de clic para ingresar; el enrutamiento a la página o sección de la prueba; y el título de la página de la prueba.
-4. Método para la prueba de la funcionalidad "Crear" y el escenario "Crear page".
-5. Método para la prueba de la funcionalidad "Editar" y el escenario "Editar page".
-6. Método para la prueba de la funcionalidad "Settings" y el escenario "Settings de page".
-7. Método para la prueba de la funcionalidad "Borrar" y el escenario "Borrar page".
+4. Método para la prueba de la funcionalidad "Pages" y el escenario "Crear page".
+5. Método para la prueba de la funcionalidad "Pages" y el escenario "Editar page".
+6. Método para la prueba de la funcionalidad "Pages" y el escenario "Settings de page".
+7. Método para la prueba de la funcionalidad "Pages" y el escenario "Borrar page".
 8. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
 
 ### Crear integración / Editar integración / Borrar integración:
 1. Ir a la carpeta playwright > playwright-test > integration.spec.ts
 2. En el interior, se puede encontrar:
 3. Instrucción beforeEach, la cual contiene los pasos previos para la ejecución, tales como las credenciales de inicio de sesión en Ghost y su instrucción de clic para ingresar; el enrutamiento a la página o sección de la prueba; y el título de la página de la prueba.
-4. Método para la prueba de la funcionalidad "Crear" y el escenario "Crear integration".
-5. Método para la prueba de la funcionalidad "Editar" y el escenario "Editar integration".
-6. Método para la prueba de la funcionalidad "Borrar" y el escenario "Borrar integration".
+4. Método para la prueba de la funcionalidad "Integrations" y el escenario "Crear integration".
+5. Método para la prueba de la funcionalidad "Integrations" y el escenario "Editar integration".
+6. Método para la prueba de la funcionalidad "Integrations" y el escenario "Borrar integration".
 7. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
 
 ### Crear member / Editar member / Borrar member:
 1. Ir a la carpeta playwright > playwright-test > member.spec.ts
 2. En el interior, se puede encontrar:
 3. Instrucción beforeEach, la cual contiene los pasos previos para la ejecución, tales como las credenciales de inicio de sesión en Ghost y su instrucción de clic para ingresar; el enrutamiento a la página o sección de la prueba; y el título de la página de la prueba.
-4. Método para la prueba de la funcionalidad "Crear" y el escenario "Crear member".
-5. Método para la prueba de la funcionalidad "Editar" y el escenario "Editar member".
-6. Método para la prueba de la funcionalidad "Borrar" y el escenario "Borrar member".
+4. Método para la prueba de la funcionalidad "Members" y el escenario "Crear member".
+5. Método para la prueba de la funcionalidad "Members" y el escenario "Editar member".
+6. Método para la prueba de la funcionalidad "Members" y el escenario "Borrar member".
 7. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
 
 ### Crear post / Editar post / Config settings post / Borrar post:
 1. Ir a la carpeta playwright > playwright-test > post.spec.ts
 2. En el interior, se puede encontrar:
 3. Instrucción beforeEach, la cual contiene los pasos previos para la ejecución, tales como las credenciales de inicio de sesión en Ghost y su instrucción de clic para ingresar; el enrutamiento a la página o sección de la prueba; y el título de la página de la prueba.
-4. Método para la prueba de la funcionalidad "Crear" y el escenario "Crear post".
-5. Método para la prueba de la funcionalidad "Editar" y el escenario "Editar post".
-6. Método para la prueba de la funcionalidad "Settings" y el escenario "Settings de post".
-7. Método para la prueba de la funcionalidad "Borrar" y el escenario "Borrar post".
+4. Método para la prueba de la funcionalidad "Posts" y el escenario "Crear post".
+5. Método para la prueba de la funcionalidad "Posts" y el escenario "Editar post".
+6. Método para la prueba de la funcionalidad "Posts" y el escenario "Settings de post".
+7. Método para la prueba de la funcionalidad "Posts" y el escenario "Borrar post".
 8. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
 
 ### Editar perfil de usuario:
 1. Ir a la carpeta playwright > playwright-test > profile.spec.ts
 2. En el interior, se puede encontrar:
 3. Instrucción beforeEach, la cual contiene los pasos previos para la ejecución, tales como las credenciales de inicio de sesión en Ghost y su instrucción de clic para ingresar; el enrutamiento a la página o sección de la prueba; y el título de la página de la prueba.
-4. Método para la prueba de la funcionalidad "Editar" y el escenario "Editar profile".
+4. Método para la prueba de la funcionalidad "Profile" y el escenario "Editar profile".
 5. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
 
 ### Sign in:
 1. Ir a la carpeta playwright > playwright-test > sign.spec.ts
 2. En el interior, se puede encontrar:
 3. Instrucción beforeEach, la cual contiene los pasos previos para la ejecución, tales como las credenciales de inicio de sesión en Ghost y su instrucción de clic para ingresar; el enrutamiento a la página o sección de la prueba; y el título de la página de la prueba.
-4. Método para la prueba de la funcionalidad "Editar" y el escenario "Sign in".
+4. Método para la prueba de la funcionalidad "Sign In" y el escenario "Sign In".
 5. Para la ejecución de los escenarios, consultar la "Guía de ejecución".
 
 ### Guía de ejecución
