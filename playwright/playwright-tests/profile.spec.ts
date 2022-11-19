@@ -19,7 +19,7 @@ test.describe.serial("Profile E2E Scenario", () => {
   
     test('Edit profile', async ({ page }) => {
   
-      await page.goto('/ghost/#/settings/staff/sergio');
+      await page.goto('/ghost/#/settings/staff/sriveros7');
     
       // Expects to be in the staff section
       await expect(page).toHaveTitle(/Staff - User - HyperS/);
@@ -33,7 +33,7 @@ test.describe.serial("Profile E2E Scenario", () => {
       await page.getByText('Save').click();
 
       await page.goto('/author/sriveros7/');
-      await expect(page).toHaveTitle(/Sergio Andres - HyperS/);
+      await expect(page).toHaveTitle(/HyperS/);
 
       await page.goto('/ghost/#/settings/staff/sriveros7');
       await page.locator('id=user-slug').fill('Sergio');

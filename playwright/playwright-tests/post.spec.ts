@@ -36,7 +36,7 @@ test.describe.serial("Post E2E Scenarios", () => {
       // Publishing post
       await reviewButton.click();
       await page.locator('button', {hasText: 'Publish post, right now'}).dispatchEvent('click')
-      expect(page.getByText('Publish post, right now')).toBeVisible();
+      expect(page.getByText('This is a new post')).toBeVisible();
     });
   
     test('Edit post', async ({ page }) => {
