@@ -13,7 +13,7 @@ test.describe.serial("Tag E2E Scenarios", () => {
         await page.locator('id=ember10').fill('qwerty12345');
         await page.getByText('Sign in').click();
 
-        // Expects the URL to contain dashboard.
+        // Expects the URL.
         await expect(page).toHaveURL("http://localhost:3001/ghost/#/site");
         await page.goto('/ghost/#/tags');
         await page.screenshot({ path: `${testInfo.title}001.png` });
@@ -22,6 +22,7 @@ test.describe.serial("Tag E2E Scenarios", () => {
     });
 
     test('Create a new tag', async ({ page }, testInfo) => {
+        // Select the option to create a new tag
         await page.getByText('Create a new tag').click();
         const breadcrumb = await page.locator('.gh-canvas-title').textContent();
         expect(breadcrumb).toContain("New tag");
@@ -34,6 +35,7 @@ test.describe.serial("Tag E2E Scenarios", () => {
     })
 
     test('Edit a tag', async ({ page }, testInfo) => {
+        // Select a specific tag to be edited
         await page.getByText('Colombia').click();
         const breadcrumb = await page.locator('.gh-canvas-title').textContent();
         //expect(breadcrumb).toContain("Edit tag");
@@ -47,9 +49,9 @@ test.describe.serial("Tag E2E Scenarios", () => {
     });
 
     test('Delete a tag', async ({ page }, testInfo) => {
+        // Select a specific tag to be deleted
         await page.getByText('Colombia').click();
         const breadcrumb = await page.locator('.gh-canvas-title').textContent();
-        //expect(breadcrumb).toContain("Edit tag");
         await page.screenshot({ path: `${testInfo.title}002.png` });
 
         // Delete a tag

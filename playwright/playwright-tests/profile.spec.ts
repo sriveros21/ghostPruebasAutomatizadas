@@ -34,6 +34,7 @@ test.describe.serial("Profile E2E Scenario", () => {
       await page.screenshot({ path: `${testInfo.title}003.png` });
       await page.getByText('Save').click();
       await page.screenshot({ path: `${testInfo.title}004.png` });
+      // Navigate to user and validate info
       await page.goto('/author/sebastian/');
       await expect(page).toHaveTitle(/Pruebas Automatizadas/);
       await page.screenshot({ path: `${testInfo.title}005.png` });

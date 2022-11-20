@@ -187,3 +187,5 @@ A continuación, se describen los pasos a seguir para la correcta ejecución de 
 `` export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools ``
 6. Desde la carpeta raiz ejecutar el siguiente comando, se abrirá una ventana de Chrome y las pruebas empezarán a correr.
 `` ./node_modules/kraken-node/bin/kraken-node run ``
+
+[Ejecución Herramientas Semana 6](../../wiki)
