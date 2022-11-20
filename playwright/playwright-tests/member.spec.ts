@@ -9,7 +9,7 @@ test.describe.serial("Member E2E Scenarios", () => {
     // Expect a title "to contain" a substring.
     await expect(page).toHaveTitle(/Sign In - Pruebas Automatizadas/);
     await page.screenshot({ path: `${testInfo.title}000.png` });
-    // create a locator
+    // Login into the app
     await page.locator('id=ember8').fill('js.arangom1@uniandes.edu.co');
     await page.locator('id=ember10').fill('qwerty12345');
     await page.getByText('Sign in').click();
@@ -23,9 +23,11 @@ test.describe.serial("Member E2E Scenarios", () => {
   });
 
   test('Create a new member', async ({ page }, testInfo) => {
-
+    // Select option to create a new member
     await page.getByText('New member').click();
     const breadcrumb = await page.locator('.gh-canvas-title').textContent();
+
+    // Validate you are in the right location
     expect (breadcrumb).toContain("New member");
     await page.screenshot({ path: `${testInfo.title}002.png` });
     // Creation of new member
@@ -37,14 +39,17 @@ test.describe.serial("Member E2E Scenarios", () => {
     if (await newsletterToggle.isChecked() != true)
       newsletterToggle.check();
     await page.getByText('Save').click();
-    //expect(await page.locator('.gh-member-details-identity').textContent()).toContain('ar32@gmail.com');
+    // Validate the member is created
+    expect(await page.locator('.gh-member-details-identity').textContent()).toContain('ar32@gmail.com');
     await page.screenshot({ path: `${testInfo.title}004.png` });
   });
 
   test('Edit a member', async ({ page }, testInfo) => {
-  
+    // Select member to edit
     await page.getByText('ar32@gmail.com').click();
     const breadcrumb = await page.locator('.gh-canvas-title').textContent();
+
+    // Validate the right location
     expect (breadcrumb).toContain("Edit member");
     await page.screenshot({ path: `${testInfo.title}002.png` });
     // Edition of a member
@@ -56,14 +61,18 @@ test.describe.serial("Member E2E Scenarios", () => {
     if (await newsletterToggle.isChecked() != true)
       newsletterToggle.check();
     await page.getByText('Save').click();
+
+    // Validate the edition of the member
     expect(await page.locator('.gh-member-details-identity').textContent()).toContain('Joselin@gmail.com');
     await page.screenshot({ path: `${testInfo.title}004.png` });
   });
 
   test('Delete a member', async ({ page }, testInfo) => {
-  
+    // Select a member to delete
     await page.getByText('Joselin@gmail.com').click();
     const breadcrumb = await page.locator('.gh-canvas-title').textContent();
+
+    // Validate the right location
     expect (breadcrumb).toContain("Edit member");
     await page.screenshot({ path: `${testInfo.title}002.png` });
   
@@ -73,6 +82,8 @@ test.describe.serial("Member E2E Scenarios", () => {
     await page.screenshot({ path: `${testInfo.title}003.png` });
     await page.locator('.gh-btn', {hasText:'Delete member'}).click();
     const tableMembers = page.locator('tbody tr');
+
+    // Validate the member was deleted
     expect(await tableMembers.count()).toEqual(0);
     await page.screenshot({ path: `${testInfo.title}004.png` });
   });

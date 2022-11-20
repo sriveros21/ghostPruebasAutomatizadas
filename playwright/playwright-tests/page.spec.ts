@@ -8,7 +8,7 @@ test.describe.serial("Page E2E Scenarios", () => {
         // Expect a title "to contain" a substring.
         await expect(page).toHaveTitle(/Sign In - Pruebas Automatizadas/);
         await page.screenshot({ path: `${testInfo.title}000.png` });
-        // create a locator
+        // Login in the app
         await page.locator('id=ember6').fill('js.arangom1@uniandes.edu.co');
         await page.locator('id=ember8').fill('qwerty12345');
         await page.getByText('Sign in →').click();
@@ -23,8 +23,11 @@ test.describe.serial("Page E2E Scenarios", () => {
     });
 
     test('Create a new page', async ({ page }, testInfo) => {
+        // Select the option to create a new page
         await page.getByText('Create a new page').click();
         const breadcrumb = await page.locator('.ember-view.gh-btn-editor.gh-editor-back-button').textContent();
+        
+        // Validate the right location
         expect(breadcrumb).toContain("Pages");
         await page.screenshot({ path: `${testInfo.title}002.png` });
 
@@ -39,8 +42,10 @@ test.describe.serial("Page E2E Scenarios", () => {
     })
 
     test('Edit a page', async ({ page }, testInfo) => {
+        // Select a specific page to edit
         await page.getByText('Pais').click();
         const breadcrumb = await page.locator('.gh-editor-post-status').textContent();
+        // Validate the right location
         expect(breadcrumb).toContain("Published");
         await page.screenshot({ path: `${testInfo.title}002.png` });
         // Edition of a page
@@ -52,8 +57,11 @@ test.describe.serial("Page E2E Scenarios", () => {
     });
 
     test('Config settings page', async ({ page }, testInfo) => {
+        // Select a specific page to edit config settings
         await page.getByText('Pais').click();
         const breadcrumb = await page.locator('.gh-editor-post-status').textContent();
+
+        // Validate the right location
         expect(breadcrumb).toContain("Published");
         await page.screenshot({ path: `${testInfo.title}002.png` });
         // Config settings of page
@@ -66,6 +74,7 @@ test.describe.serial("Page E2E Scenarios", () => {
     });
 
     test('Delete a page', async ({ page }, testInfo) => {
+        // Select a specific page to delete
         await page.getByText('Pais').click();
         const breadcrumb = await page.locator('.gh-editor-post-status').textContent();
         expect(breadcrumb).toContain("Published");
