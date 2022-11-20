@@ -9,7 +9,7 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [{
       "label": "Escenario 1 ",
-      "url": "/v2/EditUser1.png",
+      "url": "/v1/EditUser1.png",
       "referenceUrl": "/v2/EditUser1.png",
       "readyEvent": "",
       "readySelector": "",
@@ -26,7 +26,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 2 ",
-      "url": "/v2/EditUser2.png",
+      "url": "/v1/EditUser2.png",
       "referenceUrl": "/v2/EditUser2.png",
       "readyEvent": "",
       "readySelector": "",
@@ -43,7 +43,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 3 ",
-      "url": "/v2/EditUser3.png",
+      "url": "/v1/EditUser3.png",
       "referenceUrl": "/v2/EditUser3.png",
       "readyEvent": "",
       "readySelector": "",
@@ -60,7 +60,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 4 ",
-      "url": "/v2/EditUser4.png",
+      "url": "/v1/EditUser4.png",
       "referenceUrl": "/v2/EditUser4.png",
       "readyEvent": "",
       "readySelector": "",
@@ -77,7 +77,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 5 ",
-      "url": "/v2/EditUser5.png",
+      "url": "/v1/EditUser5.png",
       "referenceUrl": "/v2/EditUser5.png",
       "readyEvent": "",
       "readySelector": "",
@@ -94,7 +94,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 6 ",
-      "url": "/v2/EditUser6.png",
+      "url": "/v1/EditUser6.png",
       "referenceUrl": "/v2/EditUser6.png",
       "readyEvent": "",
       "readySelector": "",
@@ -111,7 +111,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 7 ",
-      "url": "/v2/EditUser7.png",
+      "url": "/v1/EditUser7.png",
       "referenceUrl": "/v2/EditUser7.png",
       "readyEvent": "",
       "readySelector": "",
@@ -128,7 +128,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 8 ",
-      "url": "/v2/EditUser8.png",
+      "url": "/v1/EditUser8.png",
       "referenceUrl": "/v2/EditUser8.png",
       "readyEvent": "",
       "readySelector": "",
@@ -145,7 +145,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 9 ",
-      "url": "/v2/EditUser9.png",
+      "url": "/v1/EditUser9.png",
       "referenceUrl": "/v2/EditUser9.png",
       "readyEvent": "",
       "readySelector": "",
@@ -162,7 +162,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 10 ",
-      "url": "/v2/EditUser10.png",
+      "url": "/v1/EditUser10.png",
       "referenceUrl": "/v2/EditUser10.png",
       "readyEvent": "",
       "readySelector": "",
@@ -179,7 +179,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 11 ",
-      "url": "/v2/EditUser11.png",
+      "url": "/v1/EditUser11.png",
       "referenceUrl": "/v2/EditUser11.png",
       "readyEvent": "",
       "readySelector": "",
@@ -196,7 +196,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 12 ",
-      "url": "/v2/EditUser12.png",
+      "url": "/v1/EditUser12.png",
       "referenceUrl": "/v2/EditUser12.png",
       "readyEvent": "",
       "readySelector": "",
@@ -213,7 +213,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 13 ",
-      "url": "/v2/EditUser13.png",
+      "url": "/v1/EditUser13.png",
       "referenceUrl": "/v2/EditUser13.png",
       "readyEvent": "",
       "readySelector": "",
@@ -230,7 +230,7 @@
       "requireSameDimensions": true
   }, {
       "label": "Escenario 14 ",
-      "url": "/v2/EditUser14.png",
+      "url": "/v1/EditUser14.png",
       "referenceUrl": "/v2/EditUser14.png",
       "readyEvent": "",
       "readySelector": "",
@@ -247,7 +247,7 @@
       "requireSameDimensions": true
   }, {
     "label": "Escenario 15 ",
-    "url": "/v2/EditUser15.png",
+    "url": "/v1/EditUser15.png",
     "referenceUrl": "/v2/EditUser15.png",
     "readyEvent": "",
     "readySelector": "",
@@ -264,7 +264,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 16 ",
-    "url": "/v2/CreatePost1.png",
+    "url": "/v1/CreatePost1.png",
     "referenceUrl": "/v2/CreatePost1.png",
     "readyEvent": "",
     "readySelector": "",
@@ -281,7 +281,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 17 ",
-    "url": "/v2/CreatePost2.png",
+    "url": "/v1/CreatePost2.png",
     "referenceUrl": "/v2/CreatePost2.png",
     "readyEvent": "",
     "readySelector": "",
@@ -298,7 +298,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 18 ",
-    "url": "/v2/CreatePost3.png",
+    "url": "/v1/CreatePost3.png",
     "referenceUrl": "/v2/CreatePost3.png",
     "readyEvent": "",
     "readySelector": "",
@@ -315,7 +315,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 19 ",
-    "url": "/v2/CreatePost4.png",
+    "url": "/v1/CreatePost4.png",
     "referenceUrl": "/v2/CreatePost4.png",
     "readyEvent": "",
     "readySelector": "",
@@ -332,7 +332,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 20 ",
-    "url": "/v2/CreatePost5.png",
+    "url": "/v1/CreatePost5.png",
     "referenceUrl": "/v2/CreatePost5.png",
     "readyEvent": "",
     "readySelector": "",
@@ -349,7 +349,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 21 ",
-    "url": "/v2/CreatePost6.png",
+    "url": "/v1/CreatePost6.png",
     "referenceUrl": "/v2/CreatePost6.png",
     "readyEvent": "",
     "readySelector": "",
@@ -366,7 +366,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 22 ",
-    "url": "/v2/CreatePost7.png",
+    "url": "/v1/CreatePost7.png",
     "referenceUrl": "/v2/CreatePost7.png",
     "readyEvent": "",
     "readySelector": "",
@@ -383,7 +383,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 23 ",
-    "url": "/v2/CreatePost8.png",
+    "url": "/v1/CreatePost8.png",
     "referenceUrl": "/v2/CreatePost8.png",
     "readyEvent": "",
     "readySelector": "",
@@ -400,7 +400,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 24 ",
-    "url": "/v2/CreatePost9.png",
+    "url": "/v1/CreatePost9.png",
     "referenceUrl": "/v2/CreatePost9.png",
     "readyEvent": "",
     "readySelector": "",
@@ -417,7 +417,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 25 ",
-    "url": "/v2/CreatePost10.png",
+    "url": "/v1/CreatePost10.png",
     "referenceUrl": "/v2/CreatePost10.png",
     "readyEvent": "",
     "readySelector": "",
@@ -434,7 +434,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 26 ",
-    "url": "/v2/CreatePost11.png",
+    "url": "/v1/CreatePost11.png",
     "referenceUrl": "/v2/CreatePost11.png",
     "readyEvent": "",
     "readySelector": "",
@@ -451,7 +451,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 27 ",
-    "url": "/v2/CreatePost12.png",
+    "url": "/v1/CreatePost12.png",
     "referenceUrl": "/v2/CreatePost12.png",
     "readyEvent": "",
     "readySelector": "",
@@ -468,7 +468,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 28 ",
-    "url": "/v2/CreatePost13.png",
+    "url": "/v1/CreatePost13.png",
     "referenceUrl": "/v2/CreatePost13.png",
     "readyEvent": "",
     "readySelector": "",
@@ -485,7 +485,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 29 ",
-    "url": "/v2/CreatePost14.png",
+    "url": "/v1/CreatePost14.png",
     "referenceUrl": "/v2/CreatePost14.png",
     "readyEvent": "",
     "readySelector": "",
@@ -502,7 +502,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 30 ",
-    "url": "/v2/CreatePost15.png",
+    "url": "/v1/CreatePost15.png",
     "referenceUrl": "/v2/CreatePost15.png",
     "readyEvent": "",
     "readySelector": "",
@@ -519,7 +519,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 31 ",
-    "url": "/v2/CreatePost16.png",
+    "url": "/v1/CreatePost16.png",
     "referenceUrl": "/v2/CreatePost15.png",
     "readyEvent": "",
     "readySelector": "",
@@ -536,7 +536,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 32 ",
-    "url": "/v2/CreatePost17.png",
+    "url": "/v1/CreatePost17.png",
     "referenceUrl": "/v2/CreatePost17.png",
     "readyEvent": "",
     "readySelector": "",
@@ -553,7 +553,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 33 ",
-    "url": "/v2/CreatePost18.png",
+    "url": "/v1/CreatePost18.png",
     "referenceUrl": "/v2/CreatePost18.png",
     "readyEvent": "",
     "readySelector": "",
@@ -570,7 +570,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 34 ",
-    "url": "/v2/CreatePost19.png",
+    "url": "/v1/CreatePost19.png",
     "referenceUrl": "/v2/CreatePost19.png",
     "readyEvent": "",
     "readySelector": "",
@@ -587,7 +587,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 35 ",
-    "url": "/v2/CreatePost20.png",
+    "url": "/v1/CreatePost20.png",
     "referenceUrl": "/v2/CreatePost20.png",
     "readyEvent": "",
     "readySelector": "",
@@ -604,7 +604,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 36 ",
-    "url": "/v2/CreatePost21.png",
+    "url": "/v1/CreatePost21.png",
     "referenceUrl": "/v2/CreatePost21.png",
     "readyEvent": "",
     "readySelector": "",
@@ -621,7 +621,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 37 ",
-    "url": "/v2/CreatePost22.png",
+    "url": "/v1/CreatePost22.png",
     "referenceUrl": "/v2/CreatePost22.png",
     "readyEvent": "",
     "readySelector": "",
@@ -638,7 +638,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 38 ",
-    "url": "/v2/EditPost1.png",
+    "url": "/v1/EditPost1.png",
     "referenceUrl": "/v2/EditPost1.png",
     "readyEvent": "",
     "readySelector": "",
@@ -655,7 +655,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 39 ",
-    "url": "/v2/EditPost2.png",
+    "url": "/v1/EditPost2.png",
     "referenceUrl": "/v2/EditPost2.png",
     "readyEvent": "",
     "readySelector": "",
@@ -672,7 +672,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 40 ",
-    "url": "/v2/EditPost3.png",
+    "url": "/v1/EditPost3.png",
     "referenceUrl": "/v2/EditPost3.png",
     "readyEvent": "",
     "readySelector": "",
@@ -689,7 +689,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 41 ",
-    "url": "/v2/EditPost4.png",
+    "url": "/v1/EditPost4.png",
     "referenceUrl": "/v2/EditPost4.png",
     "readyEvent": "",
     "readySelector": "",
@@ -706,7 +706,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 42 ",
-    "url": "/v2/EditPost5.png",
+    "url": "/v1/EditPost5.png",
     "referenceUrl": "/v2/EditPost5.png",
     "readyEvent": "",
     "readySelector": "",
@@ -723,7 +723,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 43 ",
-    "url": "/v2/EditPost6.png",
+    "url": "/v1/EditPost6.png",
     "referenceUrl": "/v2/EditPost6.png",
     "readyEvent": "",
     "readySelector": "",
@@ -740,7 +740,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 44 ",
-    "url": "/v2/EditPost7.png",
+    "url": "/v1/EditPost7.png",
     "referenceUrl": "/v2/EditPost7.png",
     "readyEvent": "",
     "readySelector": "",
@@ -757,7 +757,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 45 ",
-    "url": "/v2/EditPost8.png",
+    "url": "/v1/EditPost8.png",
     "referenceUrl": "/v2/EditPost8.png",
     "readyEvent": "",
     "readySelector": "",
@@ -774,7 +774,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 46 ",
-    "url": "/v2/EditPost9.png",
+    "url": "/v1/EditPost9.png",
     "referenceUrl": "/v2/EditPost9.png",
     "readyEvent": "",
     "readySelector": "",
@@ -791,7 +791,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 47 ",
-    "url": "/v2/EditPost10.png",
+    "url": "/v1/EditPost10.png",
     "referenceUrl": "/v2/EditPost10.png",
     "readyEvent": "",
     "readySelector": "",
@@ -808,7 +808,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 48 ",
-    "url": "/v2/EditPost11.png",
+    "url": "/v1/EditPost11.png",
     "referenceUrl": "/v2/EditPost11.png",
     "readyEvent": "",
     "readySelector": "",
@@ -825,7 +825,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 49 ",
-    "url": "/v2/EditPost12.png",
+    "url": "/v1/EditPost12.png",
     "referenceUrl": "/v2/EditPost12.png",
     "readyEvent": "",
     "readySelector": "",
@@ -842,7 +842,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 50 ",
-    "url": "/v2/EditPost13.png",
+    "url": "/v1/EditPost13.png",
     "referenceUrl": "/v2/EditPost13.png",
     "readyEvent": "",
     "readySelector": "",
@@ -859,7 +859,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 51 ",
-    "url": "/v2/EditPost14.png",
+    "url": "/v1/EditPost14.png",
     "referenceUrl": "/v2/EditPost14.png",
     "readyEvent": "",
     "readySelector": "",
@@ -876,7 +876,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 52 ",
-    "url": "/v2/EditPost15.png",
+    "url": "/v1/EditPost15.png",
     "referenceUrl": "/v2/EditPost15.png",
     "readyEvent": "",
     "readySelector": "",
@@ -893,7 +893,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 53 ",
-    "url": "/v2/EditPost16.png",
+    "url": "/v1/EditPost16.png",
     "referenceUrl": "/v2/EditPost16.png",
     "readyEvent": "",
     "readySelector": "",
@@ -910,7 +910,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 54 ",
-    "url": "/v2/EditPost17.png",
+    "url": "/v1/EditPost17.png",
     "referenceUrl": "/v2/EditPost17.png",
     "readyEvent": "",
     "readySelector": "",
@@ -927,7 +927,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 55 ",
-    "url": "/v2/EditPost18.png",
+    "url": "/v1/EditPost18.png",
     "referenceUrl": "/v2/EditPost18.png",
     "readyEvent": "",
     "readySelector": "",
@@ -944,7 +944,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 56 ",
-    "url": "/v2/EditPost19.png",
+    "url": "/v1/EditPost19.png",
     "referenceUrl": "/v2/EditPost19.png",
     "readyEvent": "",
     "readySelector": "",
@@ -961,7 +961,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 57 ",
-    "url": "/v2/EditPost20.png",
+    "url": "/v1/EditPost20.png",
     "referenceUrl": "/v2/EditPost20.png",
     "readyEvent": "",
     "readySelector": "",
@@ -978,7 +978,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 58 ",
-    "url": "/v2/EditPost21.png",
+    "url": "/v1/EditPost21.png",
     "referenceUrl": "/v2/EditPost21.png",
     "readyEvent": "",
     "readySelector": "",
@@ -995,7 +995,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 59 ",
-    "url": "/v2/EditPost22.png",
+    "url": "/v1/EditPost22.png",
     "referenceUrl": "/v2/EditPost22.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1012,7 +1012,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 60 ",
-    "url": "/v2/EditPost23.png",
+    "url": "/v1/EditPost23.png",
     "referenceUrl": "/v2/EditPost23.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1029,7 +1029,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 61 ",
-    "url": "/v2/EditPost24.png",
+    "url": "/v1/EditPost24.png",
     "referenceUrl": "/v2/EditPost24.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1046,7 +1046,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 62 ",
-    "url": "/v2/Signup1.png",
+    "url": "/v1/Signup1.png",
     "referenceUrl": "/v2/Signup1.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1063,7 +1063,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 63 ",
-    "url": "/v2/Signup2.png",
+    "url": "/v1/Signup2.png",
     "referenceUrl": "/v2/Signup2.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1080,7 +1080,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 64 ",
-    "url": "/v2/Signup3.png",
+    "url": "/v1/Signup3.png",
     "referenceUrl": "/v2/Signup3.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1097,7 +1097,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 65 ",
-    "url": "/v2/Signup4.png",
+    "url": "/v1/Signup4.png",
     "referenceUrl": "/v2/Signup4.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1114,7 +1114,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 66 ",
-    "url": "/v2/Signup5.png",
+    "url": "/v1/Signup5.png",
     "referenceUrl": "/v2/Signup5.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1131,7 +1131,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 67 ",
-    "url": "/v2/Signup6.png",
+    "url": "/v1/Signup6.png",
     "referenceUrl": "/v2/Signup6.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1148,7 +1148,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 68 ",
-    "url": "/v2/Signup7.png",
+    "url": "/v1/Signup7.png",
     "referenceUrl": "/v2/Signup7.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1165,7 +1165,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 69 ",
-    "url": "/v2/Signup8.png",
+    "url": "/v1/Signup8.png",
     "referenceUrl": "/v2/Signup8.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1182,7 +1182,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 70 ",
-    "url": "/v2/Signup9.png",
+    "url": "/v1/Signup9.png",
     "referenceUrl": "/v2/Signup9.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1199,7 +1199,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 71 ",
-    "url": "/v2/Signup10.png",
+    "url": "/v1/Signup10.png",
     "referenceUrl": "/v2/Signup10.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1216,7 +1216,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 72 ",
-    "url": "/v2/Signup11.png",
+    "url": "/v1/Signup11.png",
     "referenceUrl": "/v2/Signup11.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1233,7 +1233,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 73 ",
-    "url": "/v2/Signup12.png",
+    "url": "/v1/Signup12.png",
     "referenceUrl": "/v2/Signup12.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1250,7 +1250,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 74 ",
-    "url": "/v2/Create a new integration000.png",
+    "url": "/v1/Create a new integration000.png",
     "referenceUrl": "/v2/Create a new integration000.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1267,7 +1267,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 75 ",
-    "url": "/v2/Create a new integration001.png",
+    "url": "/v1/Create a new integration001.png",
     "referenceUrl": "/v2/Create a new integration001.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1284,7 +1284,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 76 ",
-    "url": "/v2/Create a new integration002.png",
+    "url": "/v1/Create a new integration002.png",
     "referenceUrl": "/v2/Create a new integration002.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1301,7 +1301,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 77 ",
-    "url": "/v2/Create a new integration003.png",
+    "url": "/v1/Create a new integration003.png",
     "referenceUrl": "/v2/Create a new integration003.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1318,7 +1318,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 78 ",
-    "url": "/v2/Create a new member000.png",
+    "url": "/v1/Create a new member000.png",
     "referenceUrl": "/v2/Create a new member000.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1335,7 +1335,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 79 ",
-    "url": "/v2/Create a new member001.png",
+    "url": "/v1/Create a new member001.png",
     "referenceUrl": "/v2/Create a new member001.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1352,7 +1352,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 80 ",
-    "url": "/v2/Create a new member002.png",
+    "url": "/v1/Create a new member002.png",
     "referenceUrl": "/v2/Create a new member002.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1369,7 +1369,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 81 ",
-    "url": "/v2/Create a new member003.png",
+    "url": "/v1/Create a new member003.png",
     "referenceUrl": "/v2/Create a new member003.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1386,7 +1386,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 82 ",
-    "url": "/v2/Create a new member004.png",
+    "url": "/v1/Create a new member004.png",
     "referenceUrl": "/v2/Create a new member004.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1403,7 +1403,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 83 ",
-    "url": "/v2/Create a new tag000.png",
+    "url": "/v1/Create a new tag000.png",
     "referenceUrl": "/v2/Create a new tag000.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1420,7 +1420,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 84 ",
-    "url": "/v2/Create a new tag001.png",
+    "url": "/v1/Create a new tag001.png",
     "referenceUrl": "/v2/Create a new tag001.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1437,7 +1437,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 85 ",
-    "url": "/v2/Create a new tag002.png",
+    "url": "/v1/Create a new tag002.png",
     "referenceUrl": "/v2/Create a new tag002.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1454,7 +1454,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 86 ",
-    "url": "/v2/Create a new tag003.png",
+    "url": "/v1/Create a new tag003.png",
     "referenceUrl": "/v2/Create a new tag003.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1471,7 +1471,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 87 ",
-    "url": "/v2/Delete a integration000.png",
+    "url": "/v1/Delete a integration000.png",
     "referenceUrl": "/v2/Delete a integration000.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1488,7 +1488,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 88 ",
-    "url": "/v2/Delete a integration001.png",
+    "url": "/v1/Delete a integration001.png",
     "referenceUrl": "/v2/Delete a integration001.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1505,7 +1505,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 89 ",
-    "url": "/v2/Delete a integration002.png",
+    "url": "/v1/Delete a integration002.png",
     "referenceUrl": "/v2/Delete a integration002.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1522,7 +1522,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 90 ",
-    "url": "/v2/Delete a tag000.png",
+    "url": "/v1/Delete a tag000.png",
     "referenceUrl": "/v2/Delete a tag000.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1539,7 +1539,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 91 ",
-    "url": "/v2/Delete a tag001.png",
+    "url": "/v1/Delete a tag001.png",
     "referenceUrl": "/v2/Delete a tag001.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1556,7 +1556,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 92 ",
-    "url": "/v2/Delete a tag002.png",
+    "url": "/v1/Delete a tag002.png",
     "referenceUrl": "/v2/Delete a tag002.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1573,7 +1573,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 93 ",
-    "url": "/v2/Delete a tag003.png",
+    "url": "/v1/Delete a tag003.png",
     "referenceUrl": "/v2/Delete a tag003.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1590,7 +1590,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 94 ",
-    "url": "/v2/Edit a integration000.png",
+    "url": "/v1/Edit a integration000.png",
     "referenceUrl": "/v2/Edit a integration000.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1607,7 +1607,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 95 ",
-    "url": "/v2/Edit a integration001.png",
+    "url": "/v1/Edit a integration001.png",
     "referenceUrl": "/v2/Edit a integration001.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1624,7 +1624,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 96 ",
-    "url": "/v2/Edit a integration002.png",
+    "url": "/v1/Edit a integration002.png",
     "referenceUrl": "/v2/Edit a integration002.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1641,7 +1641,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 97 ",
-    "url": "/v2/Edit a tag000.png",
+    "url": "/v1/Edit a tag000.png",
     "referenceUrl": "/v2/Edit a tag000.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1658,7 +1658,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 98 ",
-    "url": "/v2/Edit a tag001.png",
+    "url": "/v1/Edit a tag001.png",
     "referenceUrl": "/v2/Edit a tag001.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1675,7 +1675,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 99 ",
-    "url": "/v2/Edit a tag002.png",
+    "url": "/v1/Edit a tag002.png",
     "referenceUrl": "/v2/Edit a tag002.png",
     "readyEvent": "",
     "readySelector": "",
@@ -1692,7 +1692,7 @@
     "requireSameDimensions": true
   }, {
     "label": "Escenario 100 ",
-    "url": "/v2/Edit a tag003.png",
+    "url": "/v1/Edit a tag003.png",
     "referenceUrl": "/v2/Edit a tag003.png",
     "readyEvent": "",
     "readySelector": "",
