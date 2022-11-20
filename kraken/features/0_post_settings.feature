@@ -15,7 +15,7 @@ Scenario: Como usuario del sistema quiero poder configurar los settings de un po
   And I wait for 10 seconds
   And I click first post  
   And I wait for 10 seconds
-  And I click edit post
+  Then I click edit post
   And I wait for 10 seconds
   And I click post settings
   And I wait for 10 seconds

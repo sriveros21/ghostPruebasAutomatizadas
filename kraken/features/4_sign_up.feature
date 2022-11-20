@@ -8,7 +8,7 @@ Scenario: Como usuario ingreso al sistema con credentiales previamente registrad
   And I wait for 2 seconds
   And I enter password "<PASSWORD>"
   And I wait for 2 seconds
-  And I click sign in
+  Then I click sign in
   And I wait for 10 seconds
   And I click userpic
   And I wait for 10 seconds
