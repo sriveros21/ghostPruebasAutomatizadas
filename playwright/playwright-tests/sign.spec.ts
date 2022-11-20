@@ -13,13 +13,13 @@ test.describe.serial("Post E2E Scenarios", () => {
       await page.locator('id=ember10').fill('qwerty12345');
       await page.getByText('Sign in').click();
   
-      // Expects the URL to contain dashboard.
+      // Expects the URL 
       await expect(page).toHaveURL("http://localhost:3001/ghost/#/site");
       await page.screenshot({ path: `${testInfo.title}001.png` });
     });
   
     test('Sign out', async ({ page }, testInfo) => {
-  
+      // Sign out from the app
       await page.locator('.gh-user-avatar').click();
       await page.getByText('Sign out').click();
 
