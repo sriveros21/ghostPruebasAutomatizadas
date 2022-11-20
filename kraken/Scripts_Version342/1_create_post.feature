@@ -20,6 +20,8 @@ Scenario: Como usuario del sistema quiero crear un post
   And I wait for 10 seconds
   And I click publish post
   And I wait for 10 seconds
+  And I wait for 10 seconds
+  And I wait for 10 seconds
   And I click post now
   And I wait for 10 seconds
 

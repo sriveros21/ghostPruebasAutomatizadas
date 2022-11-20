@@ -15,6 +15,8 @@ Scenario: Como usuario del sistema quiero editar un post
   And I wait for 10 seconds
   And I click first post  
   And I wait for 10 seconds
+  And I wait for 10 seconds
+  And I wait for 10 seconds
   And I enter post title "This is an Edited Post"
   And I wait for 10 seconds
   And I enter post description "This post has been edited. "
