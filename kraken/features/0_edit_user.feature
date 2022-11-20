@@ -10,7 +10,7 @@ Scenario: Como usuario quiero editar la informacion de mi perfil
   And I wait for 5 seconds
   And I click userpic
   And I wait for 1 seconds
-  And I click your profile
+  Then I click your profile
   And I wait for 1 seconds
   And I enter location "Bogota"
   And I click save user changes
