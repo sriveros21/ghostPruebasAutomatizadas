@@ -6,23 +6,24 @@ test.describe.serial("Page E2E Scenarios", () => {
         await page.goto("");
 
         // Expect a title "to contain" a substring.
-        await expect(page).toHaveTitle(/Sign In - Pruebas Automatizadas/);
+        await expect(page).toHaveTitle(/Sign In - HyperS/);
         await page.screenshot({ path: `${testInfo.title}000.png` });
         // create a locator
-        await page.locator('id=ember6').fill('js.arangom1@uniandes.edu.co');
-        await page.locator('id=ember8').fill('qwerty12345');
+        await page.locator('id=ember6').fill('sr@34.com');
+        await page.locator('id=ember8').fill('3102326449');
         await page.getByText('Sign in →').click();
 
         // Expects the URL to contain dashboard.
+        await page.waitForTimeout(10);
         await expect(page).toHaveURL(/.*dashboard/);
         await page.goto('/ghost/#/pages');
         await page.screenshot({ path: `${testInfo.title}001.png` });
         // Expects to be in the creation of page section
-        await expect(page).toHaveTitle(/Pages - Pruebas Automatizadas/);
+        await expect(page).toHaveTitle(/Pages - HyperS/);
     });
 
     test('Create a new page', async ({ page }, testInfo) => {
-        await page.getByText('Create a new page').click();
+        await page.getByText('New page').click();
         const breadcrumb = await page.locator('.ember-view.gh-btn-editor.gh-editor-back-button').textContent();
         expect(breadcrumb).toContain("Pages");
         await page.screenshot({ path: `${testInfo.title}002.png` });

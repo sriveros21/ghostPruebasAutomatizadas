@@ -91,7 +91,7 @@ test.describe.serial("Post E2E Scenarios", () => {
       await page.screenshot({ path: `${testInfo.title}003.png` });
       await page.locator('button', {hasText: 'Delete'}).click();
       await page.screenshot({ path: `${testInfo.title}004.png` });
-      await page.getByRole('button',{name:'Delete'}).click();
+      await page.locator('.modal-footer>button',{hasText: 'Delete'}).click();
       await expect(page).toHaveTitle(/Posts - HyperS/);
       await page.screenshot({ path: `${testInfo.title}005.png` });
       const tablePosts = await page.locator('ol>li').count();

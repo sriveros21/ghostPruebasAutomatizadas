@@ -6,11 +6,11 @@ test.describe.serial("Tag E2E Scenarios", () => {
         await page.goto("");
 
         // Expect a title "to contain" a substring.
-        await expect(page).toHaveTitle(/Sign In - Pruebas Automatizadas/);
+        await expect(page).toHaveTitle(/Sign In - HyperS/);
         await page.screenshot({ path: `${testInfo.title}000.png` });
         // create a locator
-        await page.locator('id=ember6').fill('js.arangom1@uniandes.edu.co');
-        await page.locator('id=ember8').fill('qwerty12345');
+        await page.locator('id=ember6').fill('sr@34.com');
+        await page.locator('id=ember8').fill('3102326449');
         await page.getByText('Sign in →').click();
 
         // Expects the URL to contain dashboard.
@@ -18,7 +18,7 @@ test.describe.serial("Tag E2E Scenarios", () => {
         await page.goto('/ghost/#/tags');
         await page.screenshot({ path: `${testInfo.title}001.png` });
         // Expects to be in the creation of tag section
-        await expect(page).toHaveTitle(/Tags - Pruebas Automatizadas/);
+        await expect(page).toHaveTitle(/Tags - HyperS/);
     });
 
     test('Create a new tag', async ({ page }, testInfo) => {
