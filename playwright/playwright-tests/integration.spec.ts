@@ -23,12 +23,13 @@ test.describe.serial("Integration E2E Scenarios", () => {
 
     test('Create a new integration', async ({ page }, testInfo) => {
         await page.getByText('Add custom integration').click();
-        // const breadcrumb = await page.locator('.modal-header').textContent();
-        // await page.screenshot({ path: `${testInfo.title}001.png` });
-        // expect(breadcrumb).toContain("New custom integration");
+        await page.waitForTimeout(100);
+        const breadcrumb = await page.locator('.modal-header').textContent();
+        await page.screenshot({ path: `${testInfo.title}001.png` });
+        expect(breadcrumb).toContain("New custom integration");
 
         // Creation of new tag
-        await page.locator('id="new-integration-name"').fill('Pais');
+        await page.locator('#new-integration-name').fill('Pais');
         await page.screenshot({ path: `${testInfo.title}002.png` });
         await page.locator('.gh-btn', { hasText: 'Create' }).click();
         await page.screenshot({ path: `${testInfo.title}003.png` });
@@ -53,7 +54,8 @@ test.describe.serial("Integration E2E Scenarios", () => {
         await page.screenshot({ path: `${testInfo.title}001.png` });
         // Delete a tag
         await page.locator('.gh-btn', { hasText: ' Delete integration ' }).click();
-        await page.locator('id="ember93"', { hasText: 'Delete Integration' }).click();
+        await page.waitForTimeout(100);
+        await page.locator('.gh-btn.gh-btn-red.gh-btn-icon.ember-view').click();
         await page.screenshot({ path: `${testInfo.title}002.png` });
     });
 });

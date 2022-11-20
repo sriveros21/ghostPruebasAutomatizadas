@@ -54,7 +54,8 @@ test.describe.serial("Tag E2E Scenarios", () => {
 
         // Delete a tag
         await page.locator('.gh-btn.gh-btn-red.gh-btn-icon.mb15', { hasText: 'Delete tag' }).click();
-        await page.locator('.gh-btn', { hasText: 'Delete' }).click();
+        await page.waitForTimeout(100);
+        await page.locator('.modal-footer>button', { hasText: 'Delete' }).click();
         await page.screenshot({ path: `${testInfo.title}003.png` });
     });
 
