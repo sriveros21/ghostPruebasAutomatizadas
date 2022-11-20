@@ -1,0 +1,1352 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_1__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_1__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_1__0_document_0_default.png",
+        "label": "Escenario 1 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser1.png",
+        "referenceUrl": "/v2/EditUser1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_2__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_2__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_2__0_document_0_default.png",
+        "label": "Escenario 2 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser2.png",
+        "referenceUrl": "/v2/EditUser2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_3__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_3__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_3__0_document_0_default.png",
+        "label": "Escenario 3 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser3.png",
+        "referenceUrl": "/v2/EditUser3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_4__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_4__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_4__0_document_0_default.png",
+        "label": "Escenario 4 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser4.png",
+        "referenceUrl": "/v2/EditUser4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_5__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_5__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_5__0_document_0_default.png",
+        "label": "Escenario 5 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser5.png",
+        "referenceUrl": "/v2/EditUser5.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_6__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_6__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_6__0_document_0_default.png",
+        "label": "Escenario 6 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser6.png",
+        "referenceUrl": "/v2/EditUser6.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_7__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_7__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_7__0_document_0_default.png",
+        "label": "Escenario 7 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser7.png",
+        "referenceUrl": "/v2/EditUser7.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_8__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_8__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_8__0_document_0_default.png",
+        "label": "Escenario 8 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser8.png",
+        "referenceUrl": "/v2/EditUser8.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_9__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_9__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_9__0_document_0_default.png",
+        "label": "Escenario 9 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser9.png",
+        "referenceUrl": "/v2/EditUser9.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_10__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_10__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_10__0_document_0_default.png",
+        "label": "Escenario 10 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser10.png",
+        "referenceUrl": "/v2/EditUser10.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_11__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_11__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_11__0_document_0_default.png",
+        "label": "Escenario 11 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser11.png",
+        "referenceUrl": "/v2/EditUser11.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_12__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_12__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_12__0_document_0_default.png",
+        "label": "Escenario 12 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser12.png",
+        "referenceUrl": "/v2/EditUser12.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_13__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_13__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_13__0_document_0_default.png",
+        "label": "Escenario 13 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser13.png",
+        "referenceUrl": "/v2/EditUser13.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_14__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_14__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_14__0_document_0_default.png",
+        "label": "Escenario 14 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser14.png",
+        "referenceUrl": "/v2/EditUser14.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_15__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_15__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_15__0_document_0_default.png",
+        "label": "Escenario 15 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditUser15.png",
+        "referenceUrl": "/v2/EditUser15.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_16__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_16__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_16__0_document_0_default.png",
+        "label": "Escenario 16 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost1.png",
+        "referenceUrl": "/v2/CreatePost1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_16__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_17__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_17__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_17__0_document_0_default.png",
+        "label": "Escenario 17 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost2.png",
+        "referenceUrl": "/v2/CreatePost2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_17__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_18__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_18__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_18__0_document_0_default.png",
+        "label": "Escenario 18 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost3.png",
+        "referenceUrl": "/v2/CreatePost3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_18__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_19__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_19__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_19__0_document_0_default.png",
+        "label": "Escenario 19 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost4.png",
+        "referenceUrl": "/v2/CreatePost4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_19__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_20__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_20__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_20__0_document_0_default.png",
+        "label": "Escenario 20 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost5.png",
+        "referenceUrl": "/v2/CreatePost5.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_20__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_21__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_21__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_21__0_document_0_default.png",
+        "label": "Escenario 21 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost6.png",
+        "referenceUrl": "/v2/CreatePost6.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_21__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_22__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_22__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_22__0_document_0_default.png",
+        "label": "Escenario 22 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost7.png",
+        "referenceUrl": "/v2/CreatePost7.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_22__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_23__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_23__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_23__0_document_0_default.png",
+        "label": "Escenario 23 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost8.png",
+        "referenceUrl": "/v2/CreatePost8.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_23__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_24__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_24__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_24__0_document_0_default.png",
+        "label": "Escenario 24 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost9.png",
+        "referenceUrl": "/v2/CreatePost9.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_24__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_25__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_25__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_25__0_document_0_default.png",
+        "label": "Escenario 25 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost10.png",
+        "referenceUrl": "/v2/CreatePost10.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_25__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_26__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_26__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_26__0_document_0_default.png",
+        "label": "Escenario 26 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost11.png",
+        "referenceUrl": "/v2/CreatePost11.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_26__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_27__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_27__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_27__0_document_0_default.png",
+        "label": "Escenario 27 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost12.png",
+        "referenceUrl": "/v2/CreatePost12.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_27__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_28__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_28__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_28__0_document_0_default.png",
+        "label": "Escenario 28 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost13.png",
+        "referenceUrl": "/v2/CreatePost13.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_28__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_29__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_29__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_29__0_document_0_default.png",
+        "label": "Escenario 29 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost14.png",
+        "referenceUrl": "/v2/CreatePost14.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_29__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_30__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_30__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_30__0_document_0_default.png",
+        "label": "Escenario 30 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost15.png",
+        "referenceUrl": "/v2/CreatePost15.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_30__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_31__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_31__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_31__0_document_0_default.png",
+        "label": "Escenario 31 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost16.png",
+        "referenceUrl": "/v2/CreatePost15.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_31__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_32__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_32__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_32__0_document_0_default.png",
+        "label": "Escenario 32 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost17.png",
+        "referenceUrl": "/v2/CreatePost17.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_32__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_33__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_33__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_33__0_document_0_default.png",
+        "label": "Escenario 33 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost18.png",
+        "referenceUrl": "/v2/CreatePost18.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_33__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_34__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_34__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_34__0_document_0_default.png",
+        "label": "Escenario 34 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost19.png",
+        "referenceUrl": "/v2/CreatePost19.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_34__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_35__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_35__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_35__0_document_0_default.png",
+        "label": "Escenario 35 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost20.png",
+        "referenceUrl": "/v2/CreatePost20.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_35__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_36__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_36__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_36__0_document_0_default.png",
+        "label": "Escenario 36 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost21.png",
+        "referenceUrl": "/v2/CreatePost21.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_36__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_37__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_37__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_37__0_document_0_default.png",
+        "label": "Escenario 37 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/CreatePost22.png",
+        "referenceUrl": "/v2/CreatePost22.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_37__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_38__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_38__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_38__0_document_0_default.png",
+        "label": "Escenario 38 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost1.png",
+        "referenceUrl": "/v2/EditPost1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_38__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_39__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_39__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_39__0_document_0_default.png",
+        "label": "Escenario 39 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost2.png",
+        "referenceUrl": "/v2/EditPost2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_39__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_40__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_40__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_40__0_document_0_default.png",
+        "label": "Escenario 40 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost3.png",
+        "referenceUrl": "/v2/EditPost3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_40__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_41__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_41__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_41__0_document_0_default.png",
+        "label": "Escenario 41 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost4.png",
+        "referenceUrl": "/v2/EditPost4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_41__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_42__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_42__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_42__0_document_0_default.png",
+        "label": "Escenario 42 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost5.png",
+        "referenceUrl": "/v2/EditPost5.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_42__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_43__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_43__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_43__0_document_0_default.png",
+        "label": "Escenario 43 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost6.png",
+        "referenceUrl": "/v2/EditPost6.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_43__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_44__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_44__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_44__0_document_0_default.png",
+        "label": "Escenario 44 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost7.png",
+        "referenceUrl": "/v2/EditPost7.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_44__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_45__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_45__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_45__0_document_0_default.png",
+        "label": "Escenario 45 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost8.png",
+        "referenceUrl": "/v2/EditPost8.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_45__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_46__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_46__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_46__0_document_0_default.png",
+        "label": "Escenario 46 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost9.png",
+        "referenceUrl": "/v2/EditPost9.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_46__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_47__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_47__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_47__0_document_0_default.png",
+        "label": "Escenario 47 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost10.png",
+        "referenceUrl": "/v2/EditPost10.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_47__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_48__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_48__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_48__0_document_0_default.png",
+        "label": "Escenario 48 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost11.png",
+        "referenceUrl": "/v2/EditPost11.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_48__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_49__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_49__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_49__0_document_0_default.png",
+        "label": "Escenario 49 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost12.png",
+        "referenceUrl": "/v2/EditPost12.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_49__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_50__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_50__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_50__0_document_0_default.png",
+        "label": "Escenario 50 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost13.png",
+        "referenceUrl": "/v2/EditPost13.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_50__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_51__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_51__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_51__0_document_0_default.png",
+        "label": "Escenario 51 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost14.png",
+        "referenceUrl": "/v2/EditPost14.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_51__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_52__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_52__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_52__0_document_0_default.png",
+        "label": "Escenario 52 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost15.png",
+        "referenceUrl": "/v2/EditPost15.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_52__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_53__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_53__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_53__0_document_0_default.png",
+        "label": "Escenario 53 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost16.png",
+        "referenceUrl": "/v2/EditPost16.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_53__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_54__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_54__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_54__0_document_0_default.png",
+        "label": "Escenario 54 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost17.png",
+        "referenceUrl": "/v2/EditPost17.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_54__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_55__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_55__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_55__0_document_0_default.png",
+        "label": "Escenario 55 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost18.png",
+        "referenceUrl": "/v2/EditPost18.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_55__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_56__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_56__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_56__0_document_0_default.png",
+        "label": "Escenario 56 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost19.png",
+        "referenceUrl": "/v2/EditPost19.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_56__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_57__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_57__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_57__0_document_0_default.png",
+        "label": "Escenario 57 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost20.png",
+        "referenceUrl": "/v2/EditPost20.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_57__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_58__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_58__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_58__0_document_0_default.png",
+        "label": "Escenario 58 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost21.png",
+        "referenceUrl": "/v2/EditPost21.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_58__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_59__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_59__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_59__0_document_0_default.png",
+        "label": "Escenario 59 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost22.png",
+        "referenceUrl": "/v2/EditPost22.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_59__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_60__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_60__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_60__0_document_0_default.png",
+        "label": "Escenario 60 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost23.png",
+        "referenceUrl": "/v2/EditPost23.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_60__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_61__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_61__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_61__0_document_0_default.png",
+        "label": "Escenario 61 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/EditPost24.png",
+        "referenceUrl": "/v2/EditPost24.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_61__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_62__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_62__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_62__0_document_0_default.png",
+        "label": "Escenario 62 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup1.png",
+        "referenceUrl": "/v2/Signup1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_62__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_63__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_63__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_63__0_document_0_default.png",
+        "label": "Escenario 63 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup2.png",
+        "referenceUrl": "/v2/Signup2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_63__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_64__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_64__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_64__0_document_0_default.png",
+        "label": "Escenario 64 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup3.png",
+        "referenceUrl": "/v2/Signup3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_64__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_65__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_65__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_65__0_document_0_default.png",
+        "label": "Escenario 65 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup4.png",
+        "referenceUrl": "/v2/Signup4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_65__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_66__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_66__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_66__0_document_0_default.png",
+        "label": "Escenario 66 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup5.png",
+        "referenceUrl": "/v2/Signup5.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_66__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_67__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_67__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_67__0_document_0_default.png",
+        "label": "Escenario 67 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup6.png",
+        "referenceUrl": "/v2/Signup6.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_67__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_68__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_68__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_68__0_document_0_default.png",
+        "label": "Escenario 68 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup7.png",
+        "referenceUrl": "/v2/Signup7.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_68__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_69__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_69__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_69__0_document_0_default.png",
+        "label": "Escenario 69 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup8.png",
+        "referenceUrl": "/v2/Signup8.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_69__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_70__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_70__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_70__0_document_0_default.png",
+        "label": "Escenario 70 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup9.png",
+        "referenceUrl": "/v2/Signup9.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_70__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_71__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_71__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_71__0_document_0_default.png",
+        "label": "Escenario 71 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup10.png",
+        "referenceUrl": "/v2/Signup10.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_71__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_72__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_72__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_72__0_document_0_default.png",
+        "label": "Escenario 72 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup11.png",
+        "referenceUrl": "/v2/Signup11.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_72__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_73__0_document_0_default.png",
+        "test": "../bitmaps_test/20221120-153359/backstop_default_Escenario_73__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_73__0_document_0_default.png",
+        "label": "Escenario 73 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v1/Signup12.png",
+        "referenceUrl": "/v2/Signup12.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found /Users/caatovarbo/Documents/MISO/202215/Pruebas_automatizadas/backstop/backstop_data/bitmaps_reference/backstop_default_Escenario_73__0_document_0_default.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}

@@ -1,0 +1,411 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_1__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_1__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_1__0_document_0_default.png",
+        "label": "Escenario 1 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser1.png",
+        "referenceUrl": "/v2/EditUser1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.088541666666667,
+          "misMatchPercentage": "4.09",
+          "analysisTime": 68
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_1__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_2__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_2__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_2__0_document_0_default.png",
+        "label": "Escenario 2 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser2.png",
+        "referenceUrl": "/v2/EditUser2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.912708333333333,
+          "misMatchPercentage": "5.91",
+          "analysisTime": 47
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_2__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_3__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_3__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_3__0_document_0_default.png",
+        "label": "Escenario 3 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser3.png",
+        "referenceUrl": "/v2/EditUser3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.136458333333334,
+          "misMatchPercentage": "6.14",
+          "analysisTime": 57
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_3__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_4__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_4__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_4__0_document_0_default.png",
+        "label": "Escenario 4 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser4.png",
+        "referenceUrl": "/v2/EditUser4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.1850000000000005,
+          "misMatchPercentage": "6.19",
+          "analysisTime": 119
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_4__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_5__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_5__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_5__0_document_0_default.png",
+        "label": "Escenario 5 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser5.png",
+        "referenceUrl": "/v2/EditUser5.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.00875,
+          "misMatchPercentage": "6.01",
+          "analysisTime": 131
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_5__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_6__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_6__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_6__0_document_0_default.png",
+        "label": "Escenario 6 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser6.png",
+        "referenceUrl": "/v2/EditUser6.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 69.20041666666667,
+          "misMatchPercentage": "69.20",
+          "analysisTime": 123
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_6__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_7__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_7__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_7__0_document_0_default.png",
+        "label": "Escenario 7 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser7.png",
+        "referenceUrl": "/v2/EditUser7.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 69.58291666666668,
+          "misMatchPercentage": "69.58",
+          "analysisTime": 47
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_7__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_8__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_8__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_8__0_document_0_default.png",
+        "label": "Escenario 8 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser8.png",
+        "referenceUrl": "/v2/EditUser8.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 68.585,
+          "misMatchPercentage": "68.58",
+          "analysisTime": 55
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_8__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_9__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_9__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_9__0_document_0_default.png",
+        "label": "Escenario 9 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser9.png",
+        "referenceUrl": "/v2/EditUser9.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 35.0175,
+          "misMatchPercentage": "35.02",
+          "analysisTime": 73
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_9__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_10__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_10__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_10__0_document_0_default.png",
+        "label": "Escenario 10 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser10.png",
+        "referenceUrl": "/v2/EditUser10.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 35.01833333333334,
+          "misMatchPercentage": "35.02",
+          "analysisTime": 43
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_10__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_11__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_11__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_11__0_document_0_default.png",
+        "label": "Escenario 11 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser11.png",
+        "referenceUrl": "/v2/EditUser11.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.220625,
+          "misMatchPercentage": "7.22",
+          "analysisTime": 40
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_11__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_12__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_12__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_12__0_document_0_default.png",
+        "label": "Escenario 12 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser12.png",
+        "referenceUrl": "/v2/EditUser12.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 29.15583333333333,
+          "misMatchPercentage": "29.16",
+          "analysisTime": 54
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_12__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_13__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_13__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_13__0_document_0_default.png",
+        "label": "Escenario 13 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser13.png",
+        "referenceUrl": "/v2/EditUser13.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 28.723333333333333,
+          "misMatchPercentage": "28.72",
+          "analysisTime": 80
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_13__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_14__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_14__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_14__0_document_0_default.png",
+        "label": "Escenario 14 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser14.png",
+        "referenceUrl": "/v2/EditUser14.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.894375,
+          "misMatchPercentage": "4.89",
+          "analysisTime": 106
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_14__0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Escenario_15__0_document_0_default.png",
+        "test": "../bitmaps_test/20221119-183118/backstop_default_Escenario_15__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Escenario_15__0_document_0_default.png",
+        "label": "Escenario 15 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/v2/EditUser15.png",
+        "referenceUrl": "/v2/EditUser15.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.903125,
+          "misMatchPercentage": "4.90",
+          "analysisTime": 47
+        },
+        "diffImage": "../bitmaps_test/20221119-183118/failed_diff_backstop_default_Escenario_15__0_document_0_default.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}
