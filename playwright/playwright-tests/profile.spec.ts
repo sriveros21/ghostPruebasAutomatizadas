@@ -9,18 +9,18 @@ test.describe.serial("Profile E2E Scenario", () => {
       await expect(page).toHaveTitle(/Sign In - Pruebas Automatizadas/);
       await page.screenshot({ path: `${testInfo.title}000.png` });
       // login in the admin panel
-      await page.locator('id=ember6').fill('js.arangom1@uniandes.edu.co');
-      await page.locator('id=ember8').fill('qwerty12345');
-      await page.getByText('Sign in →').click();
+      await page.locator('id=ember8').fill('js.arangom1@uniandes.edu.co');
+      await page.locator('id=ember10').fill('qwerty12345');
+      await page.getByText('Sign in').click();
   
       // Expects the URL to contain dashboard.
-      await expect(page).toHaveURL(/.*dashboard/);
+      await expect(page).toHaveURL("http://localhost:3001/ghost/#/site");
       await page.screenshot({ path: `${testInfo.title}001.png` });
     });
   
     test('Edit profile', async ({ page }, testInfo) => {
   
-      await page.goto('/ghost/#/settings/staff/sebastian');
+      await page.goto('/ghost/#/staff/sebastian');
     
       // Expects to be in the staff section
       await expect(page).toHaveTitle(/Staff - User - Pruebas Automatizadas/);
@@ -37,7 +37,7 @@ test.describe.serial("Profile E2E Scenario", () => {
       await page.goto('/author/sebastian/');
       await expect(page).toHaveTitle(/Pruebas Automatizadas/);
       await page.screenshot({ path: `${testInfo.title}005.png` });
-      await page.goto('/ghost/#/settings/staff/sebastian');
+      await page.goto('/ghost/#/staff/sebastian');
       await page.screenshot({ path: `${testInfo.title}006.png` });
       await page.locator('id=user-slug').fill('Sebastian');
       await page.getByText('Save').click();
