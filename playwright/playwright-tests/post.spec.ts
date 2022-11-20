@@ -6,11 +6,11 @@ test.describe.serial("Post E2E Scenarios", () => {
       await page.goto("");
   
       // Expect a title "to contain" a substring.
-      await expect(page).toHaveTitle(/Sign In - HyperS/);
+      await expect(page).toHaveTitle(/Sign In - Pruebas Automatizadas/);
       await page.screenshot({ path: `${testInfo.title}000.png` });
       // login in the admin panel
-      await page.locator('id=ember6').fill('sr@34.com');
-      await page.locator('id=ember8').fill('3102326449');
+      await page.locator('id=ember6').fill('js.arangom1@uniandes.edu.co');
+      await page.locator('id=ember8').fill('qwerty12345');
       await page.getByText('Sign in →').click();
   
       // Expects the URL to contain dashboard.
@@ -18,12 +18,12 @@ test.describe.serial("Post E2E Scenarios", () => {
       await page.goto('/ghost/#/posts');
       await page.screenshot({ path: `${testInfo.title}001.png` });
       // Expects to be in the creation of posts section
-      await expect(page).toHaveTitle(/Posts - HyperS/);
+      await expect(page).toHaveTitle(/Posts - Pruebas Automatizadas/);
     });
   
     test('Create new post', async ({ page }, testInfo) => {
   
-      await page.locator('span',{hasText: 'New post'}).click();
+      await page.locator('span',{hasText: 'Write a new post'}).click();
       await expect(page).toHaveURL(/.*editor/);
       await page.screenshot({ path: `${testInfo.title}002.png` });
       // Creation of post
@@ -92,15 +92,15 @@ test.describe.serial("Post E2E Scenarios", () => {
       await page.locator('button', {hasText: 'Delete'}).click();
       await page.screenshot({ path: `${testInfo.title}004.png` });
       await page.locator('.modal-footer>button',{hasText: 'Delete'}).click();
-      await expect(page).toHaveTitle(/Posts - HyperS/);
+      await expect(page).toHaveTitle(/Posts - Pruebas Automatizadas/);
       await page.screenshot({ path: `${testInfo.title}005.png` });
       const tablePosts = await page.locator('ol>li').count();
-      expect(tablePosts).toEqual(2);
+      expect(tablePosts).toEqual(1);
     });
   
     test('Create a scheduled post', async ({ page }, testInfo) => {
     
-      await page.locator('span',{hasText: 'New post'}).click();
+      await page.locator('span',{hasText: 'Write a new post'}).click();
       await expect(page).toHaveURL(/.*editor/);
       await page.screenshot({ path: `${testInfo.title}002.png` });
       // Creation of post
