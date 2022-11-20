@@ -188,4 +188,4 @@ A continuación, se describen los pasos a seguir para la correcta ejecución de 
 6. Desde la carpeta raiz ejecutar el siguiente comando, se abrirá una ventana de Chrome y las pruebas empezarán a correr.
 `` ./node_modules/kraken-node/bin/kraken-node run ``
 
-[Ejecución Herramientas Semana 6](Ejecución Herramientas Semana 6)
+[Ejecución Herramientas Semana 6](Ejecucion_Herramientas_Semana_6)
