@@ -33,7 +33,7 @@ test.describe.serial("Integration E2E Scenarios", () => {
         await page.screenshot({ path: `${testInfo.title}001.png` });
         expect(breadcrumb).toContain("New custom integration");
 
-        // Creation of new tag
+        // Creation of new integration
         await page.locator('#new-integration-name').fill('Pais');
         await page.screenshot({ path: `${testInfo.title}002.png` });
         await page.locator('.gh-btn', { hasText: 'Create' }).click();
@@ -41,12 +41,12 @@ test.describe.serial("Integration E2E Scenarios", () => {
     })
 
     test('Edit a integration', async ({ page }, testInfo) => {
-        // Select a specific tag to edit
+        // Select a specific integration to edit
         await page.getByText('Pais').click();
         const breadcrumb = await page.locator('.gh-canvas-title').textContent();
         //expect(breadcrumb).toContain("Edit integration");
         await page.screenshot({ path: `${testInfo.title}001.png` });
-        // Edition of a tag
+        // Edition of a integration
         await page.locator('id=integration_name').fill('Country');
         await page.locator('id=integration_description').fill('Colombia');
         await page.screenshot({ path: `${testInfo.title}002.png` });
@@ -54,12 +54,12 @@ test.describe.serial("Integration E2E Scenarios", () => {
     });
 
     test('Delete a integration', async ({ page }, testInfo) => {
-        // Select a specific tag to delete
+        // Select a specific integration to delete
         await page.getByText('Country').click();
         const breadcrumb = await page.locator('.gh-canvas-title').textContent();
         //expect(breadcrumb).toContain("Edit integration");
         await page.screenshot({ path: `${testInfo.title}001.png` });
-        // Delete a tag
+        // Delete a integration
         await page.locator('.gh-btn', { hasText: ' Delete integration ' }).click();
         await page.waitForTimeout(100);
         await page.locator('.gh-btn.gh-btn-red.gh-btn-icon.ember-view').click();
