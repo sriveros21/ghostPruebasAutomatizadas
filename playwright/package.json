@@ -16,7 +16,8 @@
   },
   "homepage": "https://github.com/sriveros21/ghostPruebasAutomatizadas#readme",
   "devDependencies": {
-    "@playwright/test": "^1.27.1",
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.28.0",
     "@types/node": "^18.11.9"
   }
 }
