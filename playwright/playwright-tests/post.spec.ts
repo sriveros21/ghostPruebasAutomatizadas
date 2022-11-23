@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
-import data from '../data/data-priori.json';
+import data from '../data/data-post.json';
 
 test.describe.serial("Post E2E Scenarios", () => {
   const titlePostFaker = faker.lorem.sentence();
@@ -288,9 +288,267 @@ test.describe.serial("Post E2E Scenarios", () => {
       expect(tablePosts).toEqual(1);
     });
 
+    test('Ramdon scenario: Create new post without title', async ({ page }, testInfo) => {
+      // Write a new post option selected
+      await page.locator('span',{hasText: 'New post'}).click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Creation of post
+      await page.getByPlaceholder('Post title').fill('');
+      await page.locator('[data-placeholder="Begin writing your post..."]').fill(faker.lorem.paragraph());
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.getByText('Publish').click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      const reviewButton = page.locator('button', {hasText: 'Continue, final review →'});
+      // Validate the option to validate post is visible
+      await expect(reviewButton).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+
+      // Publishing post
+      await reviewButton.click();
+      await page.screenshot({ path: `${testInfo.title}006.png` });
+      await page.locator('button', {hasText: 'Publish post, right now'}).dispatchEvent('click')
+
+      // Validate that the new post is published
+      expect(page.getByText("(Untitled)")).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}007.png` });
+    });
+  
+    test('Random Scenario: Edit post without title', async ({ page }, testInfo) => {
+      // Select a specific post to be edited
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Edition of post
+      await page.locator('[data-placeholder="Begin writing your post..."]').fill(faker.lorem.paragraph())
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      const updateButton = page.locator('button', {hasText: 'Update'});
+      await updateButton.click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+
+      // Validate the edition was completed
+      await expect(updateButton).toBeDisabled();
+      
+    });
+
+    test('Random Scenario: Config settings post without title', async ({ page }, testInfo) => {
+      // Select a specific post to edit config settings
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Config settings of post
+      await page.getByTitle('Settings').click();
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.locator('id=url').fill(faker.internet.url());
+      await page.getByPlaceholder('YYYY-MM-DD').fill(faker.date.soon().toString());
+      await page.locator('.input-toggle-component').click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      // Navigate to the website to validate changes
+      await page.goto('/my-favourite-post');
+      // Validate the post is updated
+      await expect(page).toHaveTitle(/HyperS/);
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+      await page.locator('.gh-head-logo').click();
+      // Validate that the post is featured
+      expect(page.getByText('Featured')).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}006.png` });
+      
+    });
+  
+    test('Random Scenario: Delete post without title', async ({ page }, testInfo) => {
+      // Select a specific post to delete
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Delete post
+      await page.getByTitle('Settings').click();
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.locator('button', {hasText: 'Delete'}).click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      await page.locator('.modal-footer>button',{hasText: 'Delete'}).click();
+      // Confirm the right page to confirm the post is deleted
+      await expect(page).toHaveTitle(/Posts - HyperS/);
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+      const tablePosts = await page.locator('ol>li').count();
+      // Validate the post is deleted
+      expect(tablePosts).toEqual(1);
+    });
+
+    test('Data priori: Create new post without title', async ({ page }, testInfo) => {
+      // Write a new post option selected
+      await page.locator('span',{hasText: 'New post'}).click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Creation of post
+      await page.getByPlaceholder('Post title').fill("");
+      await page.locator('[data-placeholder="Begin writing your post..."]').fill(data[1].description_post);
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.getByText('Publish').click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      const reviewButton = page.locator('button', {hasText: 'Continue, final review →'});
+      // Validate the option to validate post is visible
+      await expect(reviewButton).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+
+      // Publishing post
+      await reviewButton.click();
+      await page.screenshot({ path: `${testInfo.title}006.png` });
+      await page.locator('button', {hasText: 'Publish post, right now'}).dispatchEvent('click')
+
+      // Validate that the new post is pubished
+      expect(page.getByText("(Untitled)")).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}007.png` });
+    });
+  
+    test('Data priori: Edit post without test', async ({ page }, testInfo) => {
+      // Select a specific post to be edited
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Edition of post
+      await page.locator('[data-placeholder="Begin writing your post..."]').fill(data[0].description_post)
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      const updateButton = page.locator('button', {hasText: 'Update'});
+      await updateButton.click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+
+      // Validate the edition was completed
+      await expect(updateButton).toBeDisabled();
+      
+    });
+
+    test('Data priori: Config settings post without test', async ({ page }, testInfo) => {
+      // Select a specific post to edit config settings
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Config settings of post
+      await page.getByTitle('Settings').click();
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.locator('id=url').fill(data[0]["url_Post"]);
+      await page.getByPlaceholder('YYYY-MM-DD').fill(data[0]["date_post"]);
+      await page.locator('.input-toggle-component').click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      // Navigate to the website to validate changes
+      await page.goto('/my-favourite-post');
+      // Validate the post is updated
+      await expect(page).toHaveTitle(/HyperS/);
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+      await page.locator('.gh-head-logo').click();
+      // Validate that the post is featured
+      expect(page.getByText('Featured')).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}006.png` });
+      
+    });
+  
+    test('Data priori: Delete post without title', async ({ page }, testInfo) => {
+      // Select a specific post to delete
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Delete post
+      await page.getByTitle('Settings').click();
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.locator('button', {hasText: 'Delete'}).click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      await page.locator('.modal-footer>button',{hasText: 'Delete'}).click();
+      // Confirm the right page to confirm the post is deleted
+      await expect(page).toHaveTitle(/Posts - HyperS/);
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+      const tablePosts = await page.locator('ol>li').count();
+      // Validate the post is deleted
+      expect(tablePosts).toEqual(1);
+    });
+
+    test('Random Pool: Create new post without title', async ({ page }, testInfo) => {
+      // Write a new post option selected
+      await page.locator('span',{hasText: 'New post'}).click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Creation of post
+      await page.getByPlaceholder('Post title').fill("");
+      await page.locator('[data-placeholder="Begin writing your post..."]').fill(data[randomIntFromInterval(1,999)].description_post);
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.getByText('Publish').click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      const reviewButton = page.locator('button', {hasText: 'Continue, final review →'});
+      // Validate the option to validate post is visible
+      await expect(reviewButton).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+
+      // Publishing post
+      await reviewButton.click();
+      await page.screenshot({ path: `${testInfo.title}006.png` });
+      await page.locator('button', {hasText: 'Publish post, right now'}).dispatchEvent('click')
+
+      // Validate that the new post is pubished
+      expect(page.getByText("(Untitled)")).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}007.png` });
+    });
+  
+    test('Random Pool: Edit post without title', async ({ page }, testInfo) => {
+      // Select a specific post to be edited
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Edition of post
+      await page.locator('[data-placeholder="Begin writing your post..."]').fill(data[randomIntFromInterval(1,999)].description_post)
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      const updateButton = page.locator('button', {hasText: 'Update'});
+      await updateButton.click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+
+      // Validate the edition was completed
+      await expect(updateButton).toBeDisabled();
+      
+    });
+
+    test('Random Pool: Config settings post without title', async ({ page }, testInfo) => {
+      // Select a specific post to edit config settings
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Config settings of post
+      await page.getByTitle('Settings').click();
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.locator('id=url').fill(data[randomIntFromInterval(1,999)]["url_Post"]);
+      await page.getByPlaceholder('YYYY-MM-DD').fill(data[randomIntFromInterval(1,999)]["date_post"]);
+      await page.locator('.input-toggle-component').click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      // Navigate to the website to validate changes
+      await page.goto('/my-favourite-post');
+      // Validate the post is updated
+      await expect(page).toHaveTitle(/HyperS/);
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+      await page.locator('.gh-head-logo').click();
+      // Validate that the post is featured
+      expect(page.getByText('Featured')).toBeVisible();
+      await page.screenshot({ path: `${testInfo.title}006.png` });
+      
+    });
+  
+    test('Random Pool: Delete post without title', async ({ page }, testInfo) => {
+      // Select a specific post to delete
+      await page.getByText("(Untitled)").click();
+      await expect(page).toHaveURL(/.*editor/);
+      await page.screenshot({ path: `${testInfo.title}002.png` });
+      // Delete post
+      await page.getByTitle('Settings').click();
+      await page.screenshot({ path: `${testInfo.title}003.png` });
+      await page.locator('button', {hasText: 'Delete'}).click();
+      await page.screenshot({ path: `${testInfo.title}004.png` });
+      await page.locator('.modal-footer>button',{hasText: 'Delete'}).click();
+      // Confirm the right page to confirm the post is deleted
+      await expect(page).toHaveTitle(/Posts - HyperS/);
+      await page.screenshot({ path: `${testInfo.title}005.png` });
+      const tablePosts = await page.locator('ol>li').count();
+      // Validate the post is deleted
+      expect(tablePosts).toEqual(1);
+    });
+
 
   
-    test('Create a scheduled post', async ({ page }, testInfo) => {
+    test.skip('Create a scheduled post', async ({ page }, testInfo) => {
       // Create a post to schedule
       await page.locator('span',{hasText: 'Write a new post'}).click();
       await expect(page).toHaveURL(/.*editor/);
