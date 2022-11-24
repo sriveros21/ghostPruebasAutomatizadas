@@ -377,3 +377,71 @@ Then('I click testpost', async function () {
     let element = await this.driver.$('/html/body/div[2]/div/main/section/section/ol/li[2]/a[1]/h3');
     return await element.click();
 });
+
+//Steps Escenarios Data
+
+
+When('I enter a random name as member name {kraken-string}', async function (membername) {
+    let element = await this.driver.$('#member-name');
+    return await element.setValue(membername);
+});
+
+When('I enter a random email as member email {kraken-string}', async function (memberemail) {
+    let element = await this.driver.$('#member-email');
+    return await element.setValue(memberemail);
+});
+
+When('I enter a number as member name {kraken-string}', async function (membername) {
+    let element = await this.driver.$('#member-name');
+    return await element.setValue(membername);
+});
+
+When('I enter a number as member email {kraken-string}', async function (memberemail) {
+    let element = await this.driver.$('#member-email');
+    return await element.setValue(memberemail);
+});
+
+When('I enter an email as location {kraken-string}', async function (location) {
+    let element = await this.driver.$('#user-location');
+    return await element.setValue(location);
+});
+
+When('I enter numbers in name field {kraken-string}', async function (name) {
+    let element = await this.driver.$('#user-name');
+    return await element.setValue(name);
+});
+
+When('I enter numbers in email field {kraken-string}', async function (email) {
+    let element = await this.driver.$('#user-email');
+    return await element.setValue(email);
+});
+
+When('I enter an email in facebook profile field {kraken-string}', async function (facebook) {
+    let element = await this.driver.$('#user-facebook');
+    return await element.setValue(facebook);
+});
+
+When('I enter an email in twitter profile field {kraken-string}', async function (twiter) {
+    let element = await this.driver.$('#user-twitter');
+    return await element.setValue(twiter);
+});
+
+When('I enter numbers in website field {kraken-string}', async function (website) {
+    let element = await this.driver.$('#user-website');
+    return await element.setValue(website);
+});
+
+When('I enter member note {string}', async function (note) {
+    let element = await this.driver.$('#member-note');
+    return await element.setValue(note);
+});
+
+When('I enter user name {string}', async function (name) {
+    let element = await this.driver.$('#user-name');
+    return await element.setValue(name);
+});
+
+When('I enter user email {string}', async function (email) {
+    let element = await this.driver.$('#user-email');
+    return await element.setValue(email);
+});

@@ -1,9 +1,13 @@
 const fs = require("fs");
 
 let data = fs.readFileSync("MOCK_DATA_MEMBER.json");
-let datafrontera = fs.readFileSync("MOCK_DATA_MEMBER_frontera.json");
 let datapool = JSON.parse(data);
-let datapoolfrontera = JSON.parse(datafrontera);
+let datanaughtymemebers = fs.readFileSync("Members_Naughty_DATA.json");
+let datapoolnaughtymembers = JSON.parse(datanaughtymemebers);
+let datamemebersfrontnote = fs.readFileSync("Members_FronteraSup_Nota_DATA.json");
+let datapoolfrontnotemembers = JSON.parse(datamemebersfrontnote);
+let datausersfront = fs.readFileSync("User_FronteraSup.json");
+let datapoolfrontsupusers = JSON.parse(datausersfront);
 
 
 function getRandomIntInclusive() {
@@ -14,9 +18,9 @@ function getRandomIntInclusive() {
 
 function start() {
     //crear Miembro
-    let value = getRandomIntInclusive();
-    let member = datapool[value];
-    let datapoolmember = `Feature: CreateMember
+    value = getRandomIntInclusive();
+    member = datapoolnaughtymembers[value];
+    datapoolnaughtymember =  `Feature: CreateMember
 
 @user1 @web
 Scenario: Como usuario del sistema quiero crear un miembro
@@ -42,11 +46,11 @@ And I wait for 10 seconds
 And I click members link
 And I wait for 10 seconds
 `;
-    fs.writeFileSync("features/apriori-create_member.feature", datapoolmember);
+    fs.writeFileSync("features/apriori-create_member-naughtydata.feature", datapoolnaughtymember);
 
-    value = getRandomIntInclusive();
-    member = datapool[value];
-    datapoolmember = `Feature: EditMember
+value = getRandomIntInclusive();
+member = datapoolnaughtymembers[value];
+datapoolnaughtymember = `Feature: EditMember
 
 @user1 @web
 Scenario: Como usuario del sistema quiero editar un miembro
@@ -72,11 +76,60 @@ And I wait for 10 seconds
 And I click members link
 And I wait for 10 seconds
 `;
-fs.writeFileSync("features/apriori-edit_member.feature", datapoolmember);
+fs.writeFileSync("features/apriori-edit_member_naughtydata.feature", datapoolnaughtymember);
 
 
+value = getRandomIntInclusive();
+member = datapoolfrontnotemembers[value];
+datapoolfrontnotemembers = `Feature: EditMember
 
+@user1 @web
+Scenario: Como usuario del sistema quiero editar un miembro
 
+Given I navigate to page "http://localhost:2368/ghost/#/signin"
+And I wait for 5 seconds
+When I enter email "<USERNAME>"
+And I wait for 2 seconds
+And I enter password "<PASSWORD>"
+And I wait for 2 seconds
+And I click sign in
+And I wait for 10 seconds
+And I click members link
+And I wait for 10 seconds
+Then I click first member
+And I wait for 10 seconds
+And I enter member note "${member.note}"
+And I wait for 10 seconds
+And I click save member
+And I wait for 10 seconds
+And I click members link
+And I wait for 10 seconds
+`;
+fs.writeFileSync("features/apriori-edit_member_frontnote.feature", datapoolfrontnotemembers);
+
+value = getRandomIntInclusive();
+user = datapoolfrontsupusers[value];
+datapoolfrontsupusers = `Feature: EditUser
+
+@user1 @web
+Scenario: Como usuario quiero editar la informacion de mi perfil
+  Given I navigate to page "http://localhost:2368/ghost/#/signin"
+  And I wait for 2 seconds
+  When I enter email "<USERNAME>"
+  And I enter password "<PASSWORD>"
+  And I click sign in
+  And I wait for 5 seconds
+  And I click userpic
+  And I wait for 1 seconds
+  Then I click your profile
+  And I wait for 1 seconds
+  And I enter user name "${user.fullname}"
+  And I click save user changes
+  And I wait for 2 seconds
+  And I click staff link
+  And I wait for 2 seconds
+`;
+fs.writeFileSync("features/apriori-edit_user_frontname.feature", datapoolfrontsupusers);
 
 
 
