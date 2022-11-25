@@ -18,6 +18,8 @@ let dataMembersIncorrectNameForm = fs.readFileSync("Members_IncorrectNameFormat_
 let datapoolMembersIncorrectNameForm = JSON.parse(dataMembersIncorrectNameForm);
 let dataMembersIncorrectEmailForm = fs.readFileSync("Members_IncorrectEmailFormat_DATA.json");
 let datapoolMembersIncorrectEmailForm = JSON.parse(dataMembersIncorrectEmailForm);
+let dataUserCorrectForm = fs.readFileSync("User_CorrectFormat_DATA.json");
+let datapoolUserCorrectForm = JSON.parse(dataUserCorrectForm);
 
 function getRandomIntInclusive() {
     min = Math.ceil(0);
@@ -338,7 +340,7 @@ And I wait for 15 seconds
     datapoolMembersCorrectFormFeature = `Feature: CreateMember
 
     @user1 @web
-    Scenario: Como usuario del sistema quiero crear un miembro (Faker correct format)
+    Scenario: Como usuario del sistema quiero crear un miembro 
     
       Given I navigate to page "http://localhost:2368/ghost/#/signin"
       And I wait for 5 seconds
@@ -368,7 +370,7 @@ And I wait for 15 seconds
     datapoolMembersIncorrectNameFormFeature = `Feature: CreateMember
 
     @user1 @web
-    Scenario: Como usuario del sistema quiero crear un miembro (Faker correct format)
+    Scenario: Como usuario del sistema quiero crear un miembro 
     
       Given I navigate to page "http://localhost:2368/ghost/#/signin"
       And I wait for 5 seconds
@@ -398,7 +400,7 @@ And I wait for 15 seconds
     datapoolMembersIncorrectEmailFormFeature = `Feature: CreateMember
 
     @user1 @web
-    Scenario: Como usuario del sistema quiero crear un miembro (Faker correct format)
+    Scenario: Como usuario del sistema quiero crear un miembro 
     
       Given I navigate to page "http://localhost:2368/ghost/#/signin"
       And I wait for 5 seconds
@@ -422,6 +424,33 @@ And I wait for 15 seconds
       And I wait for 10 seconds
     `;
     fs.writeFileSync("features/apriori-create_member_incorrectemailformat.feature", datapoolMembersIncorrectEmailFormFeature);
+
+    value = getRandomIntInclusive();
+    user = datapoolUserCorrectForm[value];
+    datapoolEditUserCorrectFormFeature = `Feature: EditUser
+
+    @user1 @web
+    Scenario: Como usuario quiero editar la informacion de mi perfil
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 2 seconds
+      When I enter email "<USERNAME>"
+      And I enter password "<PASSWORD>"
+      And I click sign in
+      And I wait for 5 seconds
+      And I click userpic
+      And I wait for 1 seconds
+      Then I click your profile
+      And I wait for 1 seconds
+      And I enter user name "${user.fullname}"
+      And I wait for 10 seconds
+      And I enter user email "${user.email}"
+      And I wait for 10 seconds
+      And I click save user changes
+      And I wait for 2 seconds
+      And I click staff link
+      And I wait for 2 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_user_correctformat.feature", datapoolEditUserCorrectFormFeature);
 }
 
 start();

@@ -11,10 +11,10 @@ Then I click settings button
 And I click integrations button
 And I click add custom integration button
 And I click on integration name
-And I enter text "Opela"
+And I enter text "Otcom"
 And I click on create button
 And I click on integration description
-And I enter text "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+And I enter text "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
 And I click on save button
 And I click settings button
 And I click integrations button

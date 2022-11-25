@@ -15,9 +15,9 @@ And I click members link
 And I wait for 10 seconds
 Then I click first member
 And I wait for 10 seconds
-And I enter member name "⁰⁴⁵"
+And I enter member name "-1E2"
 And I wait for 10 seconds
-And I enter member email "₀₁₂"
+And I enter member email "-1E+02"
 And I wait for 10 seconds
 And I click save member
 And I wait for 10 seconds
