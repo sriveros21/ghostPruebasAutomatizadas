@@ -15,9 +15,9 @@ And I click members link
 And I wait for 10 seconds
 Then I click new member
 And I wait for 10 seconds
-And I enter member name "00˙Ɩ$-"
+And I enter member name "울란바토르"
 And I wait for 10 seconds
-And I enter member email "Ω≈ç√∫˜µ≤≥÷"
+And I enter member email "部落格"
 And I wait for 10 seconds
 And I click save new member
 And I wait for 10 seconds
