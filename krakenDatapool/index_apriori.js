@@ -281,7 +281,7 @@ And I click settings button
 And I click integrations button
 And I wait for 2 seconds
 `;
-    fs.writeFileSync("features/apriori-edit_integration_exceed.feature", datapoolEditIntegrationExceedFeature);
+    fs.writeFileSync("features/apriori-edit_integration_exceed_name.feature", datapoolEditIntegrationExceedFeature);
 
     value = getRandomIntInclusive();
     configPage = datapoolConfigPage[value];
