@@ -112,7 +112,7 @@ fs.writeFileSync("features/apriori-edit_member_frontnote.feature", datapoolfront
 
 value = getRandomIntInclusive();
 user = datapoolfrontsupusers[value];
-datapoolfrontsupusers = `Feature: EditUser
+datapoolEditUserNameFeature = `Feature: EditUser
 
 @user1 @web
 Scenario: Como usuario quiero editar la informacion de mi perfil
@@ -132,7 +132,7 @@ And I wait for 2 seconds
 And I click staff link
 And I wait for 2 seconds
 `;
-fs.writeFileSync("features/apriori-edit_user_frontname.feature", datapoolfrontsupusers);
+fs.writeFileSync("features/apriori-edit_user_frontname.feature", datapoolEditUserNameFeature);
 
     value = getRandomIntInclusive();
     integration = datapoolIntegration[value];
@@ -249,7 +249,7 @@ And I wait for 15 seconds
 
     value = getRandomIntInclusive();
     user = datapoolfrontsupusers[value];
-    datapooledituseremail = `Feature: EditUser
+    datapoolEditUserEmailFeature = `Feature: EditUser
     
     @user1 @web
     Scenario: Como usuario quiero editar la informacion de mi perfil
@@ -271,7 +271,7 @@ And I wait for 15 seconds
     And I click staff link
     And I wait for 2 seconds
     `;
-    fs.writeFileSync("features/apriori-edit_user_frontemail.feature", datapooledituseremail);
+    fs.writeFileSync("features/apriori-edit_user_frontemail.feature", datapoolEditUserEmailFeature);
 
 }
 

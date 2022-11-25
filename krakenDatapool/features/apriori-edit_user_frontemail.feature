@@ -13,7 +13,7 @@ Feature: EditUser
     Then I click your profile
     And I wait for 1 seconds
     And I wait for 1 seconds
-    And I enter user email "undefined"
+    And I enter user email "qpfucvetqpfucvetqpfucvetqpfucvetqpfucvetqpfucvetz@hotmail.com"
     And I wait for 8 seconds
     And I click save user changes
     And I wait for 5 seconds
