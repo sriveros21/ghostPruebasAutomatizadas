@@ -11,10 +11,10 @@ Then I click settings button
 And I click integrations button
 And I click add custom integration button
 And I click on integration name
-And I enter text "Hatity"
+And I enter text "Temp"
 And I click on create button
 And I click on integration description
-And I enter text "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus."
+And I enter text "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
 And I click on save button
 And I click settings button
 And I click integrations button

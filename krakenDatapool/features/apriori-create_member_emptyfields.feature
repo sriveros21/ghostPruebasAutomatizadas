@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Kimberlee Adderley"
+      And I enter member name ""
       And I wait for 10 seconds
-      And I enter member email "0629726841"
+      And I enter member email ""
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

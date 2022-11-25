@@ -15,9 +15,9 @@ Feature: EditMember
       And I wait for 10 seconds
       Then I click first member
       And I wait for 10 seconds
-      And I enter a random name as member name "Alvera Fynan"
+      And I enter a random name as member name "Minnie Brass"
       And I wait for 10 seconds
-      And I enter a random email as member email "afynan2g@earthlink.net"
+      And I enter a random email as member email "mbrassn@multiply.com"
       And I wait for 10 seconds
       And I click save member
       And I wait for 10 seconds

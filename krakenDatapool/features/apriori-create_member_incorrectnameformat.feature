@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "http://alexa.com/sapien/quis/libero/nullam.json?donec=non&quis=velit&orci=nec&eget=nisi&orci=vulputate&vehicula=nonummy&condimentum=maecenas&curabitur=tincidunt&in=lacus&libero=at&ut=velit&massa=vivamus&volutpat=vel&convallis=nulla"
+      And I enter member name "https://multiply.com/sapien/urna.js?orci=nascetur&luctus=ridiculus"
       And I wait for 10 seconds
-      And I enter member email "gsolly29@dell.com"
+      And I enter member email "rsherbrookeh@geocities.com"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

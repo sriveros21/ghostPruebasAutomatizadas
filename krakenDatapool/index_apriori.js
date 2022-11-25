@@ -709,6 +709,36 @@ And I wait for 15 seconds
       And I wait for 10 seconds
     `;
     fs.writeFileSync("features/apriori-edit_member_incorrectemailformat.feature", datapoolEditMembersIncEmailFormFeature);
+
+    value = getRandomIntInclusive();
+    member = datapoolMembersIncorrectEmailForm[value];
+    datapoolMembersEmptyDataFeature = `Feature: CreateMember
+
+    @user1 @web
+    Scenario: Como usuario del sistema quiero crear un miembro 
+    
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 5 seconds
+      When I enter email "<USERNAME>"
+      And I wait for 2 seconds
+      And I enter password "<PASSWORD>"
+      And I wait for 2 seconds
+      And I click sign in
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+      Then I click new member
+      And I wait for 10 seconds
+      And I enter member name ""
+      And I wait for 10 seconds
+      And I enter member email ""
+      And I wait for 10 seconds
+      And I click save new member
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+    `;
+    fs.writeFileSync("features/apriori-create_member_emptyfields.feature", datapoolMembersEmptyDataFeature );
 }
 
 start();

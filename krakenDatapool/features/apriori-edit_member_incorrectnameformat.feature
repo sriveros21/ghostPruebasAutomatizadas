@@ -15,9 +15,9 @@ Feature: EditMember
       And I wait for 10 seconds
       Then I click first member
       And I wait for 10 seconds
-      And I enter a random name as member name "https://wsj.com/sit.json?nulla=in&nunc=hac&purus=habitasse&phasellus=platea&in=dictumst&felis=maecenas&donec=ut&semper=massa&sapien=quis&a=augue&libero=luctus&nam=tincidunt&dui=nulla&proin=mollis&leo=molestie&odio=lorem&porttitor=quisque&id=ut&consequat=erat&in=curabitur&consequat=gravida&ut=nisi&nulla=at&sed=nibh&accumsan=in&felis=hac&ut=habitasse&at=platea&dolor=dictumst&quis=aliquam&odio=augue&consequat=quam&varius=sollicitudin&integer=vitae&ac=consectetuer&leo=eget&pellentesque=rutrum&ultrices=at&mattis=lorem&odio=integer&donec=tincidunt&vitae=ante&nisi=vel&nam=ipsum&ultrices=praesent&libero=blandit&non=lacinia&mattis=erat&pulvinar=vestibulum&nulla=sed&pede=magna&ullamcorper=at&augue=nunc&a=commodo"
+      And I enter a random name as member name "http://accuweather.com/eros/viverra/eget/congue/eget/semper/rutrum.js?duis=platea&consequat=dictumst&dui=aliquam&nec=augue&nisi=quam&volutpat=sollicitudin&eleifend=vitae&donec=consectetuer&ut=eget&dolor=rutrum&morbi=at&vel=lorem&lectus=integer&in=tincidunt&quam=ante&fringilla=vel&rhoncus=ipsum&mauris=praesent&enim=blandit&leo=lacinia&rhoncus=erat"
       And I wait for 10 seconds
-      And I enter a random email as member email "cgreenhalgh1b@washington.edu"
+      And I enter a random email as member email "hbeckwith1k@spiegel.de"
       And I wait for 10 seconds
       And I click save member
       And I wait for 10 seconds
