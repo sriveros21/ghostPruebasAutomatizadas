@@ -15,9 +15,9 @@ And I click members link
 And I wait for 10 seconds
 Then I click new member
 And I wait for 10 seconds
-And I enter member name "👩🏽"
+And I enter member name "00˙Ɩ$-"
 And I wait for 10 seconds
-And I enter member email "-1E+02"
+And I enter member email "Ω≈ç√∫˜µ≤≥÷"
 And I wait for 10 seconds
 And I click save new member
 And I wait for 10 seconds

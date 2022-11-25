@@ -11,7 +11,7 @@ Then I click settings button
 And I click integrations button
 And I click on an existing integration
 And I click on integration name textarea
-And I enter text "Temp"
+And I enter text "$name_1"
 And I click on save button
 And I click settings button
 And I click integrations button

@@ -176,7 +176,7 @@ Then I click settings button
 And I click integrations button
 And I click on an existing integration
 And I click on integration name textarea
-And I enter text ${integration.name}
+And I enter text "${integration.name}"
 And I click on save button
 And I click settings button
 And I click integrations button
