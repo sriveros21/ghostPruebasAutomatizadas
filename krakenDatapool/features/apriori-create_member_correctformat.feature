@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Paolo Pinnion"
+      And I enter member name "Clare Maletratt"
       And I wait for 10 seconds
-      And I enter member email "ppinnionu@wufoo.com"
+      And I enter member email "cmaletratt22@cnet.com"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

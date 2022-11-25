@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Irita Walton"
+      And I enter member name "Mar Tegler"
       And I wait for 10 seconds
-      And I enter member email "4200483548"
+      And I enter member email "9958686538"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

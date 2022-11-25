@@ -15,9 +15,9 @@ Feature: EditMember
       And I wait for 10 seconds
       Then I click first member
       And I wait for 10 seconds
-      And I enter a random name as member name "http://accuweather.com/eros/viverra/eget/congue/eget/semper/rutrum.js?duis=platea&consequat=dictumst&dui=aliquam&nec=augue&nisi=quam&volutpat=sollicitudin&eleifend=vitae&donec=consectetuer&ut=eget&dolor=rutrum&morbi=at&vel=lorem&lectus=integer&in=tincidunt&quam=ante&fringilla=vel&rhoncus=ipsum&mauris=praesent&enim=blandit&leo=lacinia&rhoncus=erat"
+      And I enter a random name as member name "https://berkeley.edu/etiam/pretium/iaculis/justo/in.jpg?convallis=rutrum&duis=neque&consequat=aenean&dui=auctor&nec=gravida&nisi=sem&volutpat=praesent&eleifend=id&donec=massa&ut=id&dolor=nisl&morbi=venenatis&vel=lacinia&lectus=aenean&in=sit&quam=amet&fringilla=justo&rhoncus=morbi&mauris=ut&enim=odio&leo=cras&rhoncus=mi&sed=pede&vestibulum=malesuada&sit=in&amet=imperdiet&cursus=et&id=commodo&turpis=vulputate&integer=justo&aliquet=in&massa=blandit&id=ultrices&lobortis=enim&convallis=lorem&tortor=ipsum&risus=dolor&dapibus=sit&augue=amet&vel=consectetuer&accumsan=adipiscing&tellus=elit&nisi=proin&eu=interdum&orci=mauris&mauris=non&lacinia=ligula&sapien=pellentesque&quis=ultrices&libero=phasellus&nullam=id&sit=sapien&amet=in&turpis=sapien&elementum=iaculis&ligula=congue&vehicula=vivamus&consequat=metus&morbi=arcu"
       And I wait for 10 seconds
-      And I enter a random email as member email "hbeckwith1k@spiegel.de"
+      And I enter a random email as member email "yjuster2o@salon.com"
       And I wait for 10 seconds
       And I click save member
       And I wait for 10 seconds

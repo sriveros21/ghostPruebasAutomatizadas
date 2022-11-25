@@ -22,9 +22,9 @@ And I click right now
 And I wait for 2 seconds
 And I click on schedule for later
 And I wait for 2 seconds
-And I enter random post time "$stringdate_1"
-And I wait for 2 seconds
+And I enter random post time "$string_1"
+And I wait for 10 seconds
 And I click final review
-And I wait for 2 seconds
+And I wait for 15 seconds
 And I click schedule post
-And I wait for 2 seconds
+And I wait for 15 seconds
