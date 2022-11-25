@@ -343,7 +343,64 @@ And I wait for 15 seconds
 And I click schedule post
 And I wait for 15 seconds
 `;
-    fs.writeFileSync("features/apriori-post_scheduled.feature", datapoolpostScheduledFeature);
+    fs.writeFileSync("features/apriori-create_post_scheduled.feature", datapoolpostScheduledFeature);
+
+    value = getRandomIntInclusive();
+    postScheduled = datapoolfrontnotemembers[value];
+    datapoolpostScheduledExceedFeature = `Feature: PostsCreate Name Exceed
+
+@user1 @web
+Scenario: Como usuario del sistema quiero crear un post
+Given I navigate to page "http://localhost:2368/ghost/#/signin"
+And I wait for 5 seconds
+When I enter email "<USERNAME>"
+And I wait for 2 seconds
+And I enter password "<PASSWORD>"
+And I wait for 2 seconds
+And I click sign in
+And I wait for 15 seconds
+Then I click posts link
+And I wait for 15 seconds
+And I click new post
+And I wait for 15 seconds
+And I enter post title "${postScheduled.note}"
+And I enter post description "${postScheduled.note}"
+And I wait for 10 seconds
+And I click publish post
+`;
+    fs.writeFileSync("features/apriori-post_scheduled_exceed.feature", datapoolpostScheduledExceedFeature);
+
+    value = getRandomIntInclusive();
+    postScheduled = datapoolConfigPage[value];
+    datapoolpostScheduledDateFeature = `Feature: PostsCreate past date
+
+@user1 @web
+Scenario: Como usuario del sistema quiero crear un post
+Given I navigate to page "http://localhost:2368/ghost/#/signin"
+And I wait for 5 seconds
+When I enter email "<USERNAME>"
+And I enter password "<PASSWORD>"
+And I wait for 2 seconds
+And I click sign in
+And I wait for 3 seconds
+Then I click posts link
+And I click new post
+And I enter post title "${postScheduled.page_url}"
+And I enter post description "${postScheduled.excerpt}"
+And I wait for 10 seconds
+And I click publish post
+And I click right now
+And I wait for 1 seconds
+And I click on schedule for later
+And I enter post date "${postScheduled.publish_date}"
+And I enter post time "${postScheduled.time}"
+And I wait for 10 seconds
+And I click final review
+And I wait for 1 seconds
+And I click schedule post
+And I wait for 15 seconds
+`;
+    fs.writeFileSync("features/apriori-post_scheduled_date.feature", datapoolpostScheduledDateFeature);
 
 
     value = getRandomIntInclusive();
