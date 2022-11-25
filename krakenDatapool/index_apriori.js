@@ -592,6 +592,123 @@ And I wait for 15 seconds
       And I wait for 2 seconds
     `;
     fs.writeFileSync("features/apriori-edit_user_incorrectemailformat.feature", datapoolEditUserIncorrectEmailFormFeature);
+
+
+    value = getRandomIntInclusive();
+    user = datapoolUserIncorrectForm[value];
+    datapoolEditUserIncorrectLocationFormFeature = `Feature: EditUser
+
+    @user1 @web
+    Scenario: Como usuario quiero editar la informacion de mi perfil
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 2 seconds
+      When I enter email "<USERNAME>"
+      And I enter password "<PASSWORD>"
+      And I click sign in
+      And I wait for 5 seconds
+      And I click userpic
+      And I wait for 1 seconds
+      Then I click your profile
+      And I wait for 1 seconds
+      And I enter location "${user.location}"
+      And I wait for 10 seconds
+      And I click save user changes
+      And I wait for 2 seconds
+      And I click staff link
+      And I wait for 2 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_user_incorrectlocationformat.feature", datapoolEditUserIncorrectLocationFormFeature);
+
+    value = getRandomIntInclusive();
+    member = datapoolMembersCorrectForm[value];
+    datapoolEditMembersCorrectFormFeature = `Feature: EditMember
+
+    @user1 @web
+    Scenario: Como usuario del sistema quiero editar un miembro
+    
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 5 seconds
+      When I enter email "<USERNAME>"
+      And I wait for 2 seconds
+      And I enter password "<PASSWORD>"
+      And I wait for 2 seconds
+      And I click sign in
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+      Then I click first member
+      And I wait for 10 seconds
+      And I enter a random name as member name "${member.name}"
+      And I wait for 10 seconds
+      And I enter a random email as member email "${member.email}"
+      And I wait for 10 seconds
+      And I click save member
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_member_correctformat.feature", datapoolEditMembersCorrectFormFeature);
+
+
+    value = getRandomIntInclusive();
+    member = datapoolMembersIncorrectNameForm[value];
+    datapoolEditMembersIncNameFormFeature = `Feature: EditMember
+
+    @user1 @web
+    Scenario: Como usuario del sistema quiero editar un miembro
+    
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 5 seconds
+      When I enter email "<USERNAME>"
+      And I wait for 2 seconds
+      And I enter password "<PASSWORD>"
+      And I wait for 2 seconds
+      And I click sign in
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+      Then I click first member
+      And I wait for 10 seconds
+      And I enter a random name as member name "${member.name}"
+      And I wait for 10 seconds
+      And I enter a random email as member email "${member.email}"
+      And I wait for 10 seconds
+      And I click save member
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_member_incorrectnameformat.feature", datapoolEditMembersIncNameFormFeature);
+
+    value = getRandomIntInclusive();
+    member = datapoolMembersIncorrectEmailForm[value];
+    datapoolEditMembersIncEmailFormFeature = `Feature: EditMember
+
+    @user1 @web
+    Scenario: Como usuario del sistema quiero editar un miembro
+    
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 5 seconds
+      When I enter email "<USERNAME>"
+      And I wait for 2 seconds
+      And I enter password "<PASSWORD>"
+      And I wait for 2 seconds
+      And I click sign in
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+      Then I click first member
+      And I wait for 10 seconds
+      And I enter a random name as member name "${member.name}"
+      And I wait for 10 seconds
+      And I enter a random email as member email "${member.email}"
+      And I wait for 10 seconds
+      And I click save member
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_member_incorrectemailformat.feature", datapoolEditMembersIncEmailFormFeature);
 }
 
 start();

@@ -12,7 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user email "5472710790"
+      And I enter location "jjolliman1@toplist.cz"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

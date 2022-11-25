@@ -13,7 +13,7 @@ Feature: EditUser
     Then I click your profile
     And I wait for 1 seconds
     And I wait for 1 seconds
-    And I enter location "imjh-90gpR-3469-3la19imjh-90gpR-3469-3la19"
+    And I enter location "imvd-1AamK-8213-bqvneimvd-1AamK-8213-bqvne"
     And I wait for 8 seconds
     And I click save user changes
     And I wait for 5 seconds

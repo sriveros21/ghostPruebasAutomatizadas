@@ -12,7 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user name "http://51.la/interdum/venenatis/turpis/enim/blandit/mi/in.xml?nunc=pellentesque&donec=volutpat&quis=dui&orci=maecenas&eget=tristique"
+      And I enter user name "http://github.com/quam/suspendisse/potenti.xml?curae=nullam&duis=molestie&faucibus=nibh&accumsan=in&odio=lectus&curabitur=pellentesque&convallis=at&duis=nulla&consequat=suspendisse&dui=potenti&nec=cras&nisi=in&volutpat=purus&eleifend=eu&donec=magna&ut=vulputate&dolor=luctus&morbi=cum&vel=sociis&lectus=natoque&in=penatibus&quam=et&fringilla=magnis&rhoncus=dis&mauris=parturient&enim=montes&leo=nascetur&rhoncus=ridiculus&sed=mus&vestibulum=vivamus&sit=vestibulum&amet=sagittis&cursus=sapien&id=cum&turpis=sociis"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds
