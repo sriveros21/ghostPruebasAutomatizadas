@@ -15,9 +15,9 @@ And I click members link
 And I wait for 10 seconds
 Then I click new member
 And I wait for 10 seconds
-And I enter member name "・(￣∀￣)・:*:"
+And I enter member name "¸˛Ç◊ı˜Â¯˘¿"
 And I wait for 10 seconds
-And I enter member email "社會科學院語學研究所"
+And I enter member email "和製漢語"
 And I wait for 10 seconds
 And I click save new member
 And I wait for 10 seconds
