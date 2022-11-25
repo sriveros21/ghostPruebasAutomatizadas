@@ -206,7 +206,7 @@ Scenario: Como usuario inicio sesion y configuro una pagina existente
     And I wait for 2 seconds
 `;
     fs.writeFileSync("features/apriori-edit_integration.feature", datapoolEditConfigPageFeature);
-
+    
 
 }
 
