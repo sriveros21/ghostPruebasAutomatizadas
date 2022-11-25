@@ -15,9 +15,9 @@ And I click members link
 And I wait for 10 seconds
 Then I click first member
 And I wait for 10 seconds
-And I enter member name "-1.00"
+And I enter member name "-$1.00"
 And I wait for 10 seconds
-And I enter member email "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰"
+And I enter member email "1"
 And I wait for 10 seconds
 And I click save member
 And I wait for 10 seconds
