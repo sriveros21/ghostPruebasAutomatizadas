@@ -412,7 +412,7 @@ And I enter post description "${postScheduled.note}"
 And I wait for 10 seconds
 And I click publish post
 `;
-    fs.writeFileSync("features/apriori-post_scheduled_exceed.feature", datapoolpostScheduledExceedFeature);
+    fs.writeFileSync("features/apriori-create_post_scheduled_exceed.feature", datapoolpostScheduledExceedFeature);
 
     value = getRandomIntInclusive();
     postScheduled = datapoolConfigPage[value];
@@ -444,7 +444,7 @@ And I wait for 1 seconds
 And I click schedule post
 And I wait for 15 seconds
 `;
-    fs.writeFileSync("features/apriori-post_scheduled_date.feature", datapoolpostScheduledDateFeature);
+    fs.writeFileSync("features/apriori-create_post_scheduled_date.feature", datapoolpostScheduledDateFeature);
 
 
     value = getRandomIntInclusive();

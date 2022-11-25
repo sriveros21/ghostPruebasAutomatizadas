@@ -15,9 +15,9 @@ Feature: EditMember
       And I wait for 10 seconds
       Then I click first member
       And I wait for 10 seconds
-      And I enter a random name as member name "https://berkeley.edu/etiam/pretium/iaculis/justo/in.jpg?convallis=rutrum&duis=neque&consequat=aenean&dui=auctor&nec=gravida&nisi=sem&volutpat=praesent&eleifend=id&donec=massa&ut=id&dolor=nisl&morbi=venenatis&vel=lacinia&lectus=aenean&in=sit&quam=amet&fringilla=justo&rhoncus=morbi&mauris=ut&enim=odio&leo=cras&rhoncus=mi&sed=pede&vestibulum=malesuada&sit=in&amet=imperdiet&cursus=et&id=commodo&turpis=vulputate&integer=justo&aliquet=in&massa=blandit&id=ultrices&lobortis=enim&convallis=lorem&tortor=ipsum&risus=dolor&dapibus=sit&augue=amet&vel=consectetuer&accumsan=adipiscing&tellus=elit&nisi=proin&eu=interdum&orci=mauris&mauris=non&lacinia=ligula&sapien=pellentesque&quis=ultrices&libero=phasellus&nullam=id&sit=sapien&amet=in&turpis=sapien&elementum=iaculis&ligula=congue&vehicula=vivamus&consequat=metus&morbi=arcu"
+      And I enter a random name as member name "http://people.com.cn/bibendum/morbi/non.xml?pulvinar=vel&sed=accumsan&nisl=tellus&nunc=nisi&rhoncus=eu&dui=orci&vel=mauris&sem=lacinia&sed=sapien&sagittis=quis&nam=libero&congue=nullam&risus=sit&semper=amet&porta=turpis&volutpat=elementum&quam=ligula&pede=vehicula&lobortis=consequat&ligula=morbi&sit=a&amet=ipsum&eleifend=integer&pede=a&libero=nibh&quis=in&orci=quis&nullam=justo&molestie=maecenas&nibh=rhoncus&in=aliquam&lectus=lacus&pellentesque=morbi&at=quis&nulla=tortor&suspendisse=id&potenti=nulla&cras=ultrices&in=aliquet&purus=maecenas&eu=leo&magna=odio&vulputate=condimentum&luctus=id&cum=luctus&sociis=nec&natoque=molestie&penatibus=sed&et=justo&magnis=pellentesque&dis=viverra&parturient=pede&montes=ac&nascetur=diam&ridiculus=cras&mus=pellentesque&vivamus=volutpat&vestibulum=dui&sagittis=maecenas&sapien=tristique&cum=est&sociis=et&natoque=tempus&penatibus=semper&et=est&magnis=quam&dis=pharetra&parturient=magna&montes=ac&nascetur=consequat&ridiculus=metus&mus=sapien&etiam=ut&vel=nunc&augue=vestibulum&vestibulum=ante&rutrum=ipsum&rutrum=primis"
       And I wait for 10 seconds
-      And I enter a random email as member email "yjuster2o@salon.com"
+      And I enter a random email as member email "wdyche10@dailymail.co.uk"
       And I wait for 10 seconds
       And I click save member
       And I wait for 10 seconds

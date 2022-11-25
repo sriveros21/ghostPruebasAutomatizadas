@@ -12,7 +12,7 @@ And I click userpic
 And I wait for 1 seconds
 Then I click your profile
 And I wait for 1 seconds
-And I enter user name "CgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjoCgglgynsjo"
+And I enter user name "KbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsdKbbbkbytsd"
 And I click save user changes
 And I wait for 2 seconds
 And I click staff link

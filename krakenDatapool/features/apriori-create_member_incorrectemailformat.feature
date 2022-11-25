@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Mar Tegler"
+      And I enter member name "Koenraad Cobbald"
       And I wait for 10 seconds
-      And I enter member email "9958686538"
+      And I enter member email "3879133697"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds
