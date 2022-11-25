@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Alvera Fynan"
+      And I enter member name "Rowland Blabber"
       And I wait for 10 seconds
-      And I enter member email "afynan2g@earthlink.net"
+      And I enter member email "rblabber1k@admin.ch"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

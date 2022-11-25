@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "https://freewebs.com/libero/quis.aspx?iaculis=in&congue=sapien&vivamus=iaculis&metus=congue&arcu=vivamus&adipiscing=metus&molestie=arcu&hendrerit=adipiscing&at=molestie&vulputate=hendrerit&vitae=at&nisl=vulputate&aenean=vitae&lectus=nisl&pellentesque=aenean&eget=lectus&nunc=pellentesque&donec=eget&quis=nunc&orci=donec&eget=quis&orci=orci&vehicula=eget&condimentum=orci&curabitur=vehicula&in=condimentum&libero=curabitur&ut=in&massa=libero&volutpat=ut&convallis=massa&morbi=volutpat&odio=convallis&odio=morbi&elementum=odio&eu=odio&interdum=elementum&eu=eu&tincidunt=interdum&in=eu&leo=tincidunt&maecenas=in&pulvinar=leo&lobortis=maecenas&est=pulvinar&phasellus=lobortis&sit=est&amet=phasellus&erat=sit&nulla=amet&tempus=erat&vivamus=nulla&in=tempus&felis=vivamus&eu=in&sapien=felis&cursus=eu&vestibulum=sapien&proin=cursus&eu=vestibulum&mi=proin&nulla=eu&ac=mi&enim=nulla&in=ac&tempor=enim"
+      And I enter member name "http://ask.com/ut/erat/id/mauris/vulputate/elementum/nullam.html?accumsan=at&tellus=nibh&nisi=in&eu=hac&orci=habitasse&mauris=platea&lacinia=dictumst&sapien=aliquam&quis=augue&libero=quam&nullam=sollicitudin&sit=vitae&amet=consectetuer&turpis=eget&elementum=rutrum&ligula=at&vehicula=lorem&consequat=integer&morbi=tincidunt&a=ante&ipsum=vel&integer=ipsum&a=praesent&nibh=blandit&in=lacinia&quis=erat&justo=vestibulum&maecenas=sed&rhoncus=magna&aliquam=at&lacus=nunc&morbi=commodo&quis=placerat&tortor=praesent&id=blandit&nulla=nam&ultrices=nulla&aliquet=integer&maecenas=pede&leo=justo&odio=lacinia&condimentum=eget&id=tincidunt&luctus=eget&nec=tempus&molestie=vel&sed=pede&justo=morbi&pellentesque=porttitor&viverra=lorem&pede=id&ac=ligula&diam=suspendisse&cras=ornare&pellentesque=consequat&volutpat=lectus"
       And I wait for 10 seconds
-      And I enter member email "lclemendet2q@taobao.com"
+      And I enter member email "gsawney2@imageshack.us"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

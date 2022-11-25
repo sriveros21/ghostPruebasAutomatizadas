@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Tiena Sighart"
+      And I enter member name "Lauren Diss"
       And I wait for 10 seconds
-      And I enter member email "2584007819"
+      And I enter member email "8422422298"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

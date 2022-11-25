@@ -12,9 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user name "Calypso Hick"
-      And I wait for 10 seconds
-      And I enter location "Nikhom Kham Soi"
+      And I enter user email "0112513387"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

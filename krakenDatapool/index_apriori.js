@@ -20,6 +20,9 @@ let dataMembersIncorrectEmailForm = fs.readFileSync("Members_IncorrectEmailForma
 let datapoolMembersIncorrectEmailForm = JSON.parse(dataMembersIncorrectEmailForm);
 let dataUserCorrectForm = fs.readFileSync("User_CorrectFormat_DATA.json");
 let datapoolUserCorrectForm = JSON.parse(dataUserCorrectForm);
+let dataUserIncorrectForm = fs.readFileSync("User_IncorrectFormat_DATA.json");
+let datapoolUserIncorrectForm = JSON.parse(dataUserIncorrectForm);
+
 
 function getRandomIntInclusive() {
     min = Math.ceil(0);
@@ -92,7 +95,7 @@ fs.writeFileSync("features/apriori-edit_member_naughtydata.feature", datapoolnau
 
 value = getRandomIntInclusive();
 member = datapoolfrontnotemembers[value];
-datapoolfrontnotemembers = `Feature: EditMember
+datapoolEditMemberFrontNoteFeature = `Feature: EditMember
 
 @user1 @web
 Scenario: Como usuario del sistema quiero editar un miembro
@@ -116,7 +119,7 @@ And I wait for 10 seconds
 And I click members link
 And I wait for 10 seconds
 `;
-fs.writeFileSync("features/apriori-edit_member_frontnote.feature", datapoolfrontnotemembers);
+fs.writeFileSync("features/apriori-edit_member_frontnote.feature", datapoolEditMemberFrontNoteFeature);
 
 value = getRandomIntInclusive();
 user = datapoolfrontsupusers[value];
@@ -443,7 +446,7 @@ And I wait for 15 seconds
       And I wait for 1 seconds
       And I enter user name "${user.fullname}"
       And I wait for 10 seconds
-      And I enter user email "${user.email}"
+      And I enter location "${user.location}"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds
@@ -451,6 +454,56 @@ And I wait for 15 seconds
       And I wait for 2 seconds
     `;
     fs.writeFileSync("features/apriori-edit_user_correctformat.feature", datapoolEditUserCorrectFormFeature);
+
+    value = getRandomIntInclusive();
+    user = datapoolUserIncorrectForm[value];
+    datapoolEditUserIncorrectNameFormFeature = `Feature: EditUser
+
+    @user1 @web
+    Scenario: Como usuario quiero editar la informacion de mi perfil
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 2 seconds
+      When I enter email "<USERNAME>"
+      And I enter password "<PASSWORD>"
+      And I click sign in
+      And I wait for 5 seconds
+      And I click userpic
+      And I wait for 1 seconds
+      Then I click your profile
+      And I wait for 1 seconds
+      And I enter user name "${user.fullname}"
+      And I wait for 10 seconds
+      And I click save user changes
+      And I wait for 2 seconds
+      And I click staff link
+      And I wait for 2 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_user_incorrectnameformat.feature", datapoolEditUserIncorrectNameFormFeature);
+
+    value = getRandomIntInclusive();
+    user = datapoolUserIncorrectForm[value];
+    datapoolEditUserIncorrectEmailFormFeature = `Feature: EditUser
+
+    @user1 @web
+    Scenario: Como usuario quiero editar la informacion de mi perfil
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 2 seconds
+      When I enter email "<USERNAME>"
+      And I enter password "<PASSWORD>"
+      And I click sign in
+      And I wait for 5 seconds
+      And I click userpic
+      And I wait for 1 seconds
+      Then I click your profile
+      And I wait for 1 seconds
+      And I enter user email "${user.email}"
+      And I wait for 10 seconds
+      And I click save user changes
+      And I wait for 2 seconds
+      And I click staff link
+      And I wait for 2 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_user_incorrectemailformat.feature", datapoolEditUserIncorrectEmailFormFeature);
 }
 
 start();
