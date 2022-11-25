@@ -145,9 +145,9 @@ And I wait for 2 seconds
 `;
 fs.writeFileSync("features/apriori-edit_user_frontname.feature", datapoolEditUserNameFeature);
 
-    value = getRandomIntInclusive();
-    integration = datapoolIntegration[value];
-    datapoolCreateIntegrationFeature = `Feature: Crear integracion
+value = getRandomIntInclusive();
+integration = datapoolIntegration[value];
+datapoolCreateIntegrationFeature = `Feature: Crear integracion
 
 @user1 @web
 Scenario: Como usuario inicio sesion y creo una integracion
@@ -169,12 +169,54 @@ And I click settings button
 And I click integrations button
 And I wait for 2 seconds
 `;
-    fs.writeFileSync("features/apriori-create_integration.feature", datapoolCreateIntegrationFeature);
+fs.writeFileSync("features/apriori-create_integration.feature", datapoolCreateIntegrationFeature);    
+
+value = getRandomIntInclusive();
+integration = datapoolIntegration[value];
+datapoolCreateIntegrationNoNameFeature = `Feature: Crear integracion sin nombre
+
+@user1 @web
+Scenario: Como usuario inicio sesion y creo una integracion
+Given I navigate to page "http://localhost:2368/ghost/"
+And I wait for 2 seconds
+When I enter email "<USERNAME>"
+And I enter password "<PASSWORD>"
+And I click sign in
+Then I click settings button
+And I click integrations button
+And I click add custom integration button
+And I click on integration name
+And I enter text ""
+And I click on create button
+And I wait for 5 seconds
+`;
+fs.writeFileSync("features/apriori-create_integration_no_name.feature", datapoolCreateIntegrationNoNameFeature);
+
+value = getRandomIntInclusive();
+integration = datapoolfrontnotemembers[value];
+datapoolCreateIntegrationExceedFeature = `Feature: Crear integracion con nombre mayor a 191 caracteres
+
+@user1 @web
+Scenario: Como usuario inicio sesion y creo una integracion
+Given I navigate to page "http://localhost:2368/ghost/"
+And I wait for 2 seconds
+When I enter email "<USERNAME>"
+And I enter password "<PASSWORD>"
+And I click sign in
+Then I click settings button
+And I click integrations button
+And I click add custom integration button
+And I click on integration name
+And I enter text "${integration.note}"
+And I click on create button
+And I wait for 5 seconds
+`;
+fs.writeFileSync("features/apriori-create_integration_exceed_name.feature", datapoolCreateIntegrationExceedFeature);
 
 
-    value = getRandomIntInclusive();
-    integration = datapoolIntegration[value];
-    datapoolEditIntegrationFeature = `Feature: Editar integracion
+value = getRandomIntInclusive();
+integration = datapoolIntegration[value];
+datapoolEditIntegrationFeature = `Feature: Editar integracion
 
 @user1 @web
 Scenario: Como usuario inicio sesion y edito una integracion existente
@@ -193,7 +235,53 @@ And I click settings button
 And I click integrations button
 And I wait for 2 seconds
 `;
-    fs.writeFileSync("features/apriori-edit_integration.feature", datapoolEditIntegrationFeature);
+fs.writeFileSync("features/apriori-edit_integration.feature", datapoolEditIntegrationFeature);
+
+value = getRandomIntInclusive();
+integration = datapoolIntegration[value];
+datapoolEditIntegrationNoNameFeature = `Feature: Editar integracion sin nombre
+
+@user1 @web
+Scenario: Como usuario inicio sesion y edito una integracion existente
+Given I navigate to page "http://localhost:2368/ghost/"
+And I wait for 2 seconds
+When I enter email "<USERNAME>"
+And I enter password "<PASSWORD>"
+And I click sign in
+Then I click settings button
+And I click integrations button
+And I click on an existing integration
+And I click on integration name textarea
+And I enter text ""
+And I click on save button
+And I click settings button
+And I click integrations button
+And I wait for 2 seconds
+`;
+fs.writeFileSync("features/apriori-edit_integration_no_name.feature", datapoolEditIntegrationNoNameFeature);
+
+value = getRandomIntInclusive();
+    integration = datapoolfrontnotemembers[value];
+    datapoolEditIntegrationExceedFeature = `Feature: Editar integracion con nombre mayor a 191 caracteres
+
+@user1 @web
+Scenario: Como usuario inicio sesion y edito una integracion existente
+Given I navigate to page "http://localhost:2368/ghost/"
+And I wait for 2 seconds
+When I enter email "<USERNAME>"
+And I enter password "<PASSWORD>"
+And I click sign in
+Then I click settings button
+And I click integrations button
+And I click on an existing integration
+And I click on integration name textarea
+And I enter text "${integration.note}"
+And I click on save button
+And I click settings button
+And I click integrations button
+And I wait for 2 seconds
+`;
+    fs.writeFileSync("features/apriori-edit_integration_exceed.feature", datapoolEditIntegrationExceedFeature);
 
     value = getRandomIntInclusive();
     configPage = datapoolConfigPage[value];
