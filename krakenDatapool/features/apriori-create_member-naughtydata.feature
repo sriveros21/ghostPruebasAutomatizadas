@@ -15,9 +15,9 @@ And I click members link
 And I wait for 10 seconds
 Then I click new member
 And I wait for 10 seconds
-And I enter member name "__ﾛ(,_,*)"
+And I enter member name "・(￣∀￣)・:*:"
 And I wait for 10 seconds
-And I enter member email "部落格"
+And I enter member email "社會科學院語學研究所"
 And I wait for 10 seconds
 And I click save new member
 And I wait for 10 seconds

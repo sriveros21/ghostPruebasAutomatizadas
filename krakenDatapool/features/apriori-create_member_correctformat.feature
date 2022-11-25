@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Belle Bachelar"
+      And I enter member name "Lorenza Gaytor"
       And I wait for 10 seconds
-      And I enter member email "bbachelar13@macromedia.com"
+      And I enter member email "lgaytorr@vistaprint.com"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

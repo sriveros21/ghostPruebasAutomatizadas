@@ -1,4 +1,4 @@
-Feature: Crear integracion
+Feature: Crear integracion sin nombre
 
 @user1 @web
 Scenario: Como usuario inicio sesion y creo una integracion
@@ -11,11 +11,6 @@ Then I click settings button
 And I click integrations button
 And I click add custom integration button
 And I click on integration name
-And I enter text "Prodder"
+And I enter text ""
 And I click on create button
-And I click on integration description
-And I enter text "Etiam faucibus cursus urna. Ut tellus."
-And I click on save button
-And I click settings button
-And I click integrations button
-And I wait for 2 seconds
+And I wait for 5 seconds

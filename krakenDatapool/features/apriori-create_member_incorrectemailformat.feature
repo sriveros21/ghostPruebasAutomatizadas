@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Tomasine Harback"
+      And I enter member name "Rickie D'Hooghe"
       And I wait for 10 seconds
-      And I enter member email "4644104175"
+      And I enter member email "7056657753"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds
