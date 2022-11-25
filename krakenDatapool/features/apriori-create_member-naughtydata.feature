@@ -15,9 +15,9 @@ And I click members link
 And I wait for 10 seconds
 Then I click new member
 And I wait for 10 seconds
-And I enter member name "() { 0; }; touch /tmp/blns.shellshock1.fail;"
+And I enter member name "__ﾛ(,_,*)"
 And I wait for 10 seconds
-And I enter member email "NULL"
+And I enter member email "部落格"
 And I wait for 10 seconds
 And I click save new member
 And I wait for 10 seconds

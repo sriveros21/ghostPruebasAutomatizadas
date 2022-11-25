@@ -445,3 +445,8 @@ When('I enter user email {string}', async function (email) {
     let element = await this.driver.$('#user-email');
     return await element.setValue(email);
 });
+
+When('I enter bio {string}', async function (bio) {
+    let element = await this.driver.$('#user-bio');
+    return await element.setValue(bio);
+});

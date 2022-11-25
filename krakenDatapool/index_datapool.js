@@ -12,6 +12,12 @@ let dataConfigPage =  fs.readFileSync("CONFIG_PAGE_MOCK_DATA.json");
 let datapoolConfigPage = JSON.parse(dataConfigPage);
 let dataPostScheduled = fs.readFileSync("POST_SCHEDULED_MOCK_DATA.json");
 let datapoolpostScheduled = JSON.parse(dataPostScheduled);
+let dataMembersCorrectForm = fs.readFileSync("Members_CorrectFormat_DATA.json");
+let datapoolMembersCorrectForm = JSON.parse(dataMembersCorrectForm);
+let dataMembersIncorrectNameForm = fs.readFileSync("Members_IncorrectNameFormat_DATA.json");
+let datapoolMembersIncorrectNameForm = JSON.parse(dataMembersIncorrectNameForm);
+let dataMembersIncorrectEmailForm = fs.readFileSync("Members_IncorrectEmailFormat_DATA.json");
+let datapoolMembersIncorrectEmailForm = JSON.parse(dataMembersIncorrectEmailForm);
 
 function getRandomIntInclusive() {
     min = Math.ceil(0);
@@ -273,6 +279,149 @@ And I wait for 15 seconds
     `;
     fs.writeFileSync("features/apriori-edit_user_frontemail.feature", datapoolEditUserEmailFeature);
 
+
+    value = getRandomIntInclusive();
+    user = datapoolfrontsupusers[value];
+    datapoolEditUserLocationFeature = `Feature: EditUser
+    
+    @user1 @web
+    Scenario: Como usuario quiero editar la informacion de mi perfil
+    Given I navigate to page "http://localhost:2368/ghost/#/signin"
+    And I wait for 2 seconds
+    When I enter email "<USERNAME>"
+    And I enter password "<PASSWORD>"
+    And I click sign in
+    And I wait for 5 seconds
+    And I click userpic
+    And I wait for 1 seconds
+    Then I click your profile
+    And I wait for 1 seconds
+    And I wait for 1 seconds
+    And I enter location "${user.location}"
+    And I wait for 8 seconds
+    And I click save user changes
+    And I wait for 5 seconds
+    And I click staff link
+    And I wait for 2 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_user_frontlocation.feature", datapoolEditUserLocationFeature);
+
+
+    value = getRandomIntInclusive();
+    user = datapoolfrontsupusers[value];
+    datapoolEditUserBioFeature = `Feature: EditUser
+    
+    @user1 @web
+    Scenario: Como usuario quiero editar la informacion de mi perfil
+    Given I navigate to page "http://localhost:2368/ghost/#/signin"
+    And I wait for 2 seconds
+    When I enter email "<USERNAME>"
+    And I enter password "<PASSWORD>"
+    And I click sign in
+    And I wait for 5 seconds
+    And I click userpic
+    And I wait for 1 seconds
+    Then I click your profile
+    And I wait for 1 seconds
+    And I wait for 1 seconds
+    And I enter bio "${user.bio}"
+    And I wait for 8 seconds
+    And I click save user changes
+    And I wait for 5 seconds
+    And I click staff link
+    And I wait for 2 seconds
+    `;
+    fs.writeFileSync("features/apriori-edit_user_frontbio.feature", datapoolEditUserBioFeature);
+
+    value = getRandomIntInclusive();
+    member = datapoolMembersCorrectForm[value];
+    datapoolMembersCorrectFormFeature = `Feature: CreateMember
+
+    @user1 @web
+    Scenario: Como usuario del sistema quiero crear un miembro (Faker correct format)
+    
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 5 seconds
+      When I enter email "<USERNAME>"
+      And I wait for 2 seconds
+      And I enter password "<PASSWORD>"
+      And I wait for 2 seconds
+      And I click sign in
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+      Then I click new member
+      And I wait for 10 seconds
+      And I enter member name "${member.name}"
+      And I wait for 10 seconds
+      And I enter member email "${member.email}"
+      And I wait for 10 seconds
+      And I click save new member
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+    `;
+    fs.writeFileSync("features/apriori-create_member_correctformat.feature", datapoolMembersCorrectFormFeature);
+
+    value = getRandomIntInclusive();
+    member = datapoolMembersIncorrectNameForm[value];
+    datapoolMembersIncorrectNameFormFeature = `Feature: CreateMember
+
+    @user1 @web
+    Scenario: Como usuario del sistema quiero crear un miembro (Faker correct format)
+    
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 5 seconds
+      When I enter email "<USERNAME>"
+      And I wait for 2 seconds
+      And I enter password "<PASSWORD>"
+      And I wait for 2 seconds
+      And I click sign in
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+      Then I click new member
+      And I wait for 10 seconds
+      And I enter member name "${member.name}"
+      And I wait for 10 seconds
+      And I enter member email "${member.email}"
+      And I wait for 10 seconds
+      And I click save new member
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+    `;
+    fs.writeFileSync("features/apriori-create_member_incorrectnameformat.feature", datapoolMembersIncorrectNameFormFeature);
+
+    value = getRandomIntInclusive();
+    member = datapoolMembersIncorrectEmailForm[value];
+    datapoolMembersIncorrectEmailFormFeature = `Feature: CreateMember
+
+    @user1 @web
+    Scenario: Como usuario del sistema quiero crear un miembro (Faker correct format)
+    
+      Given I navigate to page "http://localhost:2368/ghost/#/signin"
+      And I wait for 5 seconds
+      When I enter email "<USERNAME>"
+      And I wait for 2 seconds
+      And I enter password "<PASSWORD>"
+      And I wait for 2 seconds
+      And I click sign in
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+      Then I click new member
+      And I wait for 10 seconds
+      And I enter member name "${member.name}"
+      And I wait for 10 seconds
+      And I enter member email "${member.email}"
+      And I wait for 10 seconds
+      And I click save new member
+      And I wait for 10 seconds
+      And I click members link
+      And I wait for 10 seconds
+    `;
+    fs.writeFileSync("features/apriori-create_member_incorrectemailformat.feature", datapoolMembersIncorrectEmailFormFeature);
 }
 
 start();
