@@ -1,0 +1,257 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "configurar-pagina;como-usuario-inicio-sesion-y-configuro-una-pagina-existente",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Como usuario inicio sesion y configuro una pagina existente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to page \"http://localhost:2368/ghost/\"",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/web.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter email \"<USERNAME>\"",
+            "match": {
+              "location": "features/web/step_definitions/step.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter password \"<PASSWORD>\"",
+            "match": {
+              "location": "features/web/step_definitions/step.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click sign in",
+            "match": {
+              "location": "features/web/step_definitions/step.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I click pages button",
+            "match": {
+              "location": "features/web/step_definitions/step.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on existing page",
+            "match": {
+              "location": "features/web/step_definitions/step.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on page setting button",
+            "match": {
+              "location": "features/web/step_definitions/step.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on excerpt textarea",
+            "match": {
+              "location": "features/web/step_definitions/step.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter text \"$string_1\"",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/web.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click back button",
+            "match": {
+              "location": "features/web/step_definitions/step.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on existing page",
+            "match": {
+              "location": "features/web/step_definitions/step.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on page setting button",
+            "match": {
+              "location": "features/web/step_definitions/step.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "configurar-pagina",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Configurar pagina",
+    "tags": [],
+    "uri": "features/0_Aleatorio-config_page.feature"
+  }
+]
