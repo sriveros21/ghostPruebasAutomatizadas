@@ -1,7 +1,7 @@
-Feature: CreateMember
+Feature: EditMember
 
     @user1 @web
-    Scenario: Como usuario del sistema quiero crear un miembro 
+    Scenario: Como usuario del sistema quiero editar un miembro
     
       Given I navigate to page "http://localhost:2368/ghost/#/signin"
       And I wait for 5 seconds
@@ -13,13 +13,13 @@ Feature: CreateMember
       And I wait for 10 seconds
       And I click members link
       And I wait for 10 seconds
-      Then I click new member
+      Then I click first member
       And I wait for 10 seconds
-      And I enter member name "Kimberlee Adderley"
+      And I enter a random name as member name "Ward Cornels"
       And I wait for 10 seconds
-      And I enter member email "0629726841"
+      And I enter a random email as member email "0557235448"
       And I wait for 10 seconds
-      And I click save new member
+      And I click save member
       And I wait for 10 seconds
       And I click members link
       And I wait for 10 seconds

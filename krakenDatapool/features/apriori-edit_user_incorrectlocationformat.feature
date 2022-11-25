@@ -12,9 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user name "Abbey Demonge"
-      And I wait for 10 seconds
-      And I enter location "Sedlčany"
+      And I enter location "mpolamontayne28@theglobeandmail.com"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

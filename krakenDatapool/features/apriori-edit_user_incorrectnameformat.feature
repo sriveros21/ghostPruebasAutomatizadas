@@ -12,7 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user name "http://51.la/interdum/venenatis/turpis/enim/blandit/mi/in.xml?nunc=pellentesque&donec=volutpat&quis=dui&orci=maecenas&eget=tristique"
+      And I enter user name "http://edublogs.org/ipsum.html?sit=tortor&amet=id&lobortis=nulla&sapien=ultrices&sapien=aliquet&non=maecenas&mi=leo&integer=odio&ac=condimentum&neque=id&duis=luctus&bibendum=nec&morbi=molestie&non=sed&quam=justo&nec=pellentesque&dui=viverra&luctus=pede&rutrum=ac&nulla=diam&tellus=cras&in=pellentesque"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds
