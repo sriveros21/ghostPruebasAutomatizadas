@@ -343,6 +343,11 @@ When('I enter post time {string}', async function (posttime) {
     return await element.setValue(posttime);
 });
 
+When('I enter post date {string}', async function (postdate) {
+    let element = await this.driver.$('.gh-date-time-picker-date');
+    return await element.setValue(postdate);
+});
+
 When('I click schedule post', async function() {
     let element = await this.driver.$('button.gh-btn-large');
     return await element.click();

@@ -12,9 +12,9 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user name "Abbey Demonge"
+      And I enter user name "Kelby Talton"
       And I wait for 10 seconds
-      And I enter location "Sedlčany"
+      And I enter location "Florencia"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

@@ -11,10 +11,10 @@ Then I click settings button
 And I click integrations button
 And I click add custom integration button
 And I click on integration name
-And I enter text "Temp"
+And I enter text "Rank"
 And I click on create button
 And I click on integration description
-And I enter text "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+And I enter text "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum."
 And I click on save button
 And I click settings button
 And I click integrations button
