@@ -11,10 +11,10 @@ Then I click settings button
 And I click integrations button
 And I click add custom integration button
 And I click on integration name
-And I enter text "Domainer"
+And I enter text "Zathin"
 And I click on create button
 And I click on integration description
-And I enter text "Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum."
+And I enter text "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
 And I click on save button
 And I click settings button
 And I click integrations button

@@ -12,7 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user name "https://jiathis.com/at/velit.json?nulla=id&mollis=luctus&molestie=nec&lorem=molestie&quisque=sed&ut=justo&erat=pellentesque&curabitur=viverra&gravida=pede&nisi=ac&at=diam&nibh=cras&in=pellentesque&hac=volutpat&habitasse=dui&platea=maecenas&dictumst=tristique&aliquam=est&augue=et&quam=tempus&sollicitudin=semper&vitae=est&consectetuer=quam&eget=pharetra&rutrum=magna&at=ac&lorem=consequat&integer=metus&tincidunt=sapien&ante=ut&vel=nunc&ipsum=vestibulum&praesent=ante&blandit=ipsum&lacinia=primis&erat=in&vestibulum=faucibus&sed=orci&magna=luctus&at=et&nunc=ultrices&commodo=posuere&placerat=cubilia&praesent=curae&blandit=mauris&nam=viverra&nulla=diam"
+      And I enter user name "https://upenn.edu/platea/dictumst/aliquam/augue.jsp?nunc=orci&purus=luctus&phasellus=et&in=ultrices&felis=posuere&donec=cubilia&semper=curae&sapien=mauris&a=viverra&libero=diam&nam=vitae&dui=quam&proin=suspendisse&leo=potenti&odio=nullam&porttitor=porttitor&id=lacus&consequat=at&in=turpis&consequat=donec&ut=posuere&nulla=metus&sed=vitae&accumsan=ipsum&felis=aliquam"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

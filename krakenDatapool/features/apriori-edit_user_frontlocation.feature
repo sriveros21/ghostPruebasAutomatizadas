@@ -13,7 +13,7 @@ Feature: EditUser
     Then I click your profile
     And I wait for 1 seconds
     And I wait for 1 seconds
-    And I enter location "dlum-tXsuB-1571-wwh2vdlum-tXsuB-1571-wwh2v"
+    And I enter location "traa-qHoGw-2057-0b28ktraa-qHoGw-2057-0b28k"
     And I wait for 8 seconds
     And I click save user changes
     And I wait for 5 seconds

@@ -14,9 +14,9 @@ Then I click posts link
 And I wait for 15 seconds
 And I click new post
 And I wait for 15 seconds
-And I enter post title "Kanlam"
+And I enter post title "Otcom"
 And I wait for 10 seconds
-And I enter post description "Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst."
+And I enter post description "Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
 And I wait for 10 seconds
 And I click publish post
 And I wait for 10 seconds
@@ -24,7 +24,7 @@ And I click right now
 And I wait for 10 seconds
 And I click on schedule for later
 And I wait for 10 seconds
-And I enter post time "8:23"
+And I enter post time "8:12"
 And I wait for 10 seconds
 And I click final review
 And I wait for 15 seconds

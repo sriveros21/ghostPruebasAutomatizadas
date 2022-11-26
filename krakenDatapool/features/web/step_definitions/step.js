@@ -349,7 +349,7 @@ Then('I click on schedule for later', async function () {
 });
 
 When('I enter post time {string}', async function (posttime) {
-    let element = await this.driver.$('.gh-date-time-picker-time');
+    let element = await this.driver.$('/html/body/div[4]/div/div/div/div[2]/div[3]/div/div/div/fieldset/div[2]/div[2]/input');
     return await element.setValue(posttime);
 });
 
@@ -380,7 +380,7 @@ When('I enter page url {string}', async function (postdate) {
 
 
 When('I click schedule post', async function() {
-    let element = await this.driver.$('button.gh-btn-large');
+    let element = await this.driver.$('/html/body/div[4]/div/div/div/div[2]/button[1]/span');
     return await element.click();
 })
 

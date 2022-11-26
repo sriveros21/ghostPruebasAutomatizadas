@@ -11,6 +11,6 @@ And I wait for 2 seconds
 Then I click pages button
 And I click on existing page
 And I click on page setting button
-And I enter page date "jalker17@wikimedia.org"
+And I enter page date "rconckline@sina.com.cn"
 And I click on excerpt textarea
 And I wait for 10 seconds

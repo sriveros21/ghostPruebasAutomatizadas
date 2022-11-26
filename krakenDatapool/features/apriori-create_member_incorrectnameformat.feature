@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "https://oracle.com/eget/tempus/vel/pede/morbi.xml?pede=ridiculus&lobortis=mus&ligula=etiam&sit=vel&amet=augue&eleifend=vestibulum&pede=rutrum&libero=rutrum&quis=neque&orci=aenean&nullam=auctor&molestie=gravida&nibh=sem&in=praesent&lectus=id&pellentesque=massa&at=id&nulla=nisl&suspendisse=venenatis&potenti=lacinia&cras=aenean&in=sit&purus=amet&eu=justo&magna=morbi&vulputate=ut&luctus=odio&cum=cras&sociis=mi&natoque=pede&penatibus=malesuada&et=in&magnis=imperdiet&dis=et&parturient=commodo&montes=vulputate&nascetur=justo&ridiculus=in&mus=blandit&vivamus=ultrices&vestibulum=enim&sagittis=lorem&sapien=ipsum&cum=dolor&sociis=sit&natoque=amet&penatibus=consectetuer&et=adipiscing&magnis=elit&dis=proin&parturient=interdum&montes=mauris&nascetur=non"
+      And I enter member name "https://msn.com/lorem/vitae.html?mauris=sapien&lacinia=varius&sapien=ut&quis=blandit&libero=non&nullam=interdum&sit=in&amet=ante&turpis=vestibulum&elementum=ante&ligula=ipsum&vehicula=primis&consequat=in&morbi=faucibus&a=orci&ipsum=luctus&integer=et&a=ultrices&nibh=posuere&in=cubilia&quis=curae&justo=duis&maecenas=faucibus&rhoncus=accumsan&aliquam=odio&lacus=curabitur&morbi=convallis&quis=duis&tortor=consequat&id=dui&nulla=nec&ultrices=nisi&aliquet=volutpat&maecenas=eleifend&leo=donec&odio=ut&condimentum=dolor&id=morbi&luctus=vel&nec=lectus&molestie=in&sed=quam&justo=fringilla&pellentesque=rhoncus&viverra=mauris&pede=enim&ac=leo&diam=rhoncus&cras=sed&pellentesque=vestibulum&volutpat=sit&dui=amet&maecenas=cursus&tristique=id&est=turpis&et=integer&tempus=aliquet&semper=massa&est=id&quam=lobortis&pharetra=convallis&magna=tortor&ac=risus&consequat=dapibus&metus=augue&sapien=vel&ut=accumsan&nunc=tellus&vestibulum=nisi&ante=eu&ipsum=orci&primis=mauris&in=lacinia&faucibus=sapien&orci=quis&luctus=libero&et=nullam&ultrices=sit&posuere=amet&cubilia=turpis&curae=elementum&mauris=ligula&viverra=vehicula"
       And I wait for 10 seconds
-      And I enter member email "lbonar14@posterous.com"
+      And I enter member email "aluther16@scribd.com"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds
