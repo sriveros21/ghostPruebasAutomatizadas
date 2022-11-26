@@ -189,5 +189,6 @@ A continuación, se describen los pasos a seguir para la correcta ejecución de 
 `` ./node_modules/kraken-node/bin/kraken-node run ``
 
 [Ejecución Herramientas Semana 6](../../wiki)
+
 [Ejecución Herramientas Semana 7](../../wiki)
 
