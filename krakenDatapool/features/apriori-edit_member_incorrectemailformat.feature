@@ -15,9 +15,9 @@ Feature: EditMember
       And I wait for 10 seconds
       Then I click first member
       And I wait for 10 seconds
-      And I enter a random name as member name "Zeke Werndly"
+      And I enter a random name as member name "Remy Graysmark"
       And I wait for 10 seconds
-      And I enter a random email as member email "5457204324"
+      And I enter a random email as member email "1158468261"
       And I wait for 10 seconds
       And I click save member
       And I wait for 10 seconds

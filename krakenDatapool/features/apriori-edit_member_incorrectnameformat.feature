@@ -15,9 +15,9 @@ Feature: EditMember
       And I wait for 10 seconds
       Then I click first member
       And I wait for 10 seconds
-      And I enter a random name as member name "https://feedburner.com/amet/justo/morbi/ut/odio/cras.aspx?nunc=lorem&proin=id&at=ligula&turpis=suspendisse&a=ornare&pede=consequat&posuere=lectus&nonummy=in&integer=est&non=risus&velit=auctor&donec=sed&diam=tristique&neque=in&vestibulum=tempus&eget=sit&vulputate=amet&ut=sem&ultrices=fusce&vel=consequat&augue=nulla&vestibulum=nisl&ante=nunc&ipsum=nisl&primis=duis&in=bibendum&faucibus=felis&orci=sed&luctus=interdum&et=venenatis&ultrices=turpis&posuere=enim&cubilia=blandit&curae=mi&donec=in&pharetra=porttitor&magna=pede&vestibulum=justo&aliquet=eu&ultrices=massa&erat=donec&tortor=dapibus&sollicitudin=duis&mi=at&sit=velit&amet=eu&lobortis=est&sapien=congue&sapien=elementum&non=in&mi=hac&integer=habitasse&ac=platea&neque=dictumst&duis=morbi&bibendum=vestibulum&morbi=velit&non=id&quam=pretium&nec=iaculis&dui=diam&luctus=erat&rutrum=fermentum&nulla=justo&tellus=nec&in=condimentum&sagittis=neque&dui=sapien&vel=placerat&nisl=ante&duis=nulla&ac=justo&nibh=aliquam&fusce=quis&lacus=turpis&purus=eget&aliquet=elit"
+      And I enter a random name as member name "https://psu.edu/ultrices/erat/tortor/sollicitudin/mi/sit.jpg?pretium=tincidunt&nisl=eget&ut=tempus&volutpat=vel&sapien=pede&arcu=morbi&sed=porttitor&augue=lorem&aliquam=id&erat=ligula&volutpat=suspendisse&in=ornare&congue=consequat&etiam=lectus&justo=in&etiam=est&pretium=risus&iaculis=auctor&justo=sed&in=tristique&hac=in&habitasse=tempus&platea=sit&dictumst=amet&etiam=sem&faucibus=fusce&cursus=consequat&urna=nulla&ut=nisl&tellus=nunc&nulla=nisl&ut=duis&erat=bibendum&id=felis"
       And I wait for 10 seconds
-      And I enter a random email as member email "fdewbury1a@patch.com"
+      And I enter a random email as member email "oratt2r@hhs.gov"
       And I wait for 10 seconds
       And I click save member
       And I wait for 10 seconds

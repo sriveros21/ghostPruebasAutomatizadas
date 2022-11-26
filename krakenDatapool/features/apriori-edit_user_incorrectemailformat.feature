@@ -12,7 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user email "6047682367"
+      And I enter user email "4583683421"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

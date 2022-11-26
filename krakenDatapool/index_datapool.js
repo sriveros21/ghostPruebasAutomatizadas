@@ -88,7 +88,9 @@ function start() {
     When I enter email "<USERNAME>"
     And I enter password "<PASSWORD>"
     And I click sign in
+    And I wait for 2 seconds
     Then I click settings button
+    And I wait for 2 seconds
     And I click integrations button
     And I wait for 2 seconds
     And I click add custom integration button
@@ -97,11 +99,14 @@ function start() {
     And I enter text "${integration.name}"
     And I wait for 2 seconds
     And I click on create button
+    And I wait for 2 seconds
     And I click on integration description
     And I enter text "${integration.description}"
     And I wait for 2 seconds
     And I click on save button
+    And I wait for 2 seconds
     And I click settings button
+    And I wait for 2 seconds
     And I click integrations button
     And I wait for 2 seconds
 `;
@@ -118,14 +123,20 @@ function start() {
     When I enter email "<USERNAME>"
     And I enter password "<PASSWORD>"
     And I click sign in
+    And I wait for 2 seconds
     Then I click settings button
+    And I wait for 2 seconds
     And I click integrations button
+    And I wait for 2 seconds
     And I click on an existing integration
+    And I wait for 2 seconds
     And I click on integration name textarea
     And I enter text "${integrationEdit.name}"
     And I wait for 2 seconds
     And I click on save button
+    And I wait for 2 seconds
     And I click settings button
+    And I wait for 2 seconds
     And I click integrations button
     And I wait for 2 seconds
 `;
@@ -179,13 +190,17 @@ function start() {
     And I click sign in
     And I wait for 2 seconds
     Then I click pages button
+    And I wait for 2 seconds
     And I click on existing page
+    And I wait for 2 seconds
     And I click on page setting button
+    And I wait for 2 seconds
     And I click on excerpt textarea
     And I enter text "${configPage.excerpt}"
     And I click back button
     And I wait for 2 seconds 
     And I click on existing page
+    And I wait for 2 seconds
     And I click on page setting button
     And I wait for 2 seconds
 `;
@@ -202,9 +217,13 @@ function start() {
     When I enter email "<USERNAME>"
     And I enter password "<PASSWORD>"
     And I click sign in
+    And I wait for 2 seconds
     Then I click settings button
+    And I wait for 2 seconds
     And I click integrations button
+    And I wait for 2 seconds
     And I click on an existing integration
+    And I wait for 2 seconds
     And I click on integration name textarea
     And I enter text "${integrationFront.description}"
     And I click on save button
@@ -223,9 +242,13 @@ function start() {
     When I enter email "<USERNAME>"
     And I enter password "<PASSWORD>"
     And I click sign in
+    And I wait for 2 seconds
     Then I click settings button
+    And I wait for 2 seconds
     And I click integrations button
+    And I wait for 2 seconds
     And I click add custom integration button
+    And I wait for 2 seconds
     And I click on integration name
     And I enter text "${integrationFrontName.description}"
     And I click on create button
@@ -247,11 +270,14 @@ function start() {
     And I click sign in
     And I wait for 3 seconds
     Then I click posts link
+    And I wait for 2 seconds
     And I click new post
+    And I wait for 2 seconds
     And I enter post title "Holdlamis"
     And I enter post description "${postWrong.description}"
     And I wait for 10 seconds
     And I click publish post
+    And I wait for 2 seconds
     And I click right now
     And I wait for 1 seconds
     And I click on schedule for later
@@ -280,7 +306,9 @@ function start() {
     And I click sign in
     And I wait for 3 seconds
     Then I click posts link
+    And I wait for 2 seconds
     And I click new post
+    And I wait for 2 seconds
     And I enter post description "${postWrongName.description}"
     And I enter post title "${postWrongName.name}"
     And I wait for 5 seconds

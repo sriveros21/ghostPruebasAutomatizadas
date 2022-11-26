@@ -9,12 +9,16 @@ Feature: Configurar pagina
     And I click sign in
     And I wait for 2 seconds
     Then I click pages button
+    And I wait for 2 seconds
     And I click on existing page
+    And I wait for 2 seconds
     And I click on page setting button
+    And I wait for 2 seconds
     And I click on excerpt textarea
-    And I enter text "Inventore consequatur eaque occaecati recusandae doloremque consequatur aliquam."
+    And I enter text "Occaecati iure mollitia perferendis tempore."
     And I click back button
     And I wait for 2 seconds 
     And I click on existing page
+    And I wait for 2 seconds
     And I click on page setting button
     And I wait for 2 seconds

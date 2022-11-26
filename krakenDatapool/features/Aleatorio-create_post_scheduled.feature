@@ -11,6 +11,7 @@ And I wait for 2 seconds
 And I click sign in
 And I wait for 5 seconds
 Then I click posts link
+And I wait for 2 seconds
 And I click new post
 And I wait for 2 seconds
 And I enter random post title "$name_1"
@@ -18,6 +19,7 @@ And I wait for 2 seconds
 And I enter random post description "$string_1"
 And I wait for 2 seconds
 And I click publish post
+And I wait for 2 seconds
 And I click right now
 And I wait for 2 seconds
 And I click on schedule for later

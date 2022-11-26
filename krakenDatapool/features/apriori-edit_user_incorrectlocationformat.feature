@@ -12,7 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter location "jdowbakinz@sfgate.com"
+      And I enter location "kfawssett0@joomla.org"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

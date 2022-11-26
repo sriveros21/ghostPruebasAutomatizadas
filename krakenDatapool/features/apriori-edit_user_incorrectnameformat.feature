@@ -12,7 +12,7 @@ Feature: EditUser
       And I wait for 1 seconds
       Then I click your profile
       And I wait for 1 seconds
-      And I enter user name "https://upenn.edu/platea/dictumst/aliquam/augue.jsp?nunc=orci&purus=luctus&phasellus=et&in=ultrices&felis=posuere&donec=cubilia&semper=curae&sapien=mauris&a=viverra&libero=diam&nam=vitae&dui=quam&proin=suspendisse&leo=potenti&odio=nullam&porttitor=porttitor&id=lacus&consequat=at&in=turpis&consequat=donec&ut=posuere&nulla=metus&sed=vitae&accumsan=ipsum&felis=aliquam"
+      And I enter user name "http://freewebs.com/id/massa/id/nisl/venenatis/lacinia.html?in=vulputate&faucibus=luctus&orci=cum&luctus=sociis&et=natoque&ultrices=penatibus&posuere=et&cubilia=magnis"
       And I wait for 10 seconds
       And I click save user changes
       And I wait for 2 seconds

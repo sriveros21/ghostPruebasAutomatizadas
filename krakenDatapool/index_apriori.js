@@ -156,16 +156,24 @@ And I wait for 2 seconds
 When I enter email "<USERNAME>"
 And I enter password "<PASSWORD>"
 And I click sign in
+And I wait for 2 seconds
 Then I click settings button
+And I wait for 2 seconds
 And I click integrations button
+And I wait for 2 seconds
 And I click add custom integration button
+And I wait for 2 seconds
 And I click on integration name
 And I enter text "${integration.name}"
 And I click on create button
+And I wait for 2 seconds
 And I click on integration description
 And I enter text "${integration.description}"
+And I wait for 2 seconds
 And I click on save button
+And I wait for 2 seconds
 And I click settings button
+And I wait for 2 seconds
 And I click integrations button
 And I wait for 2 seconds
 `;
@@ -182,10 +190,15 @@ And I wait for 2 seconds
 When I enter email "<USERNAME>"
 And I enter password "<PASSWORD>"
 And I click sign in
+And I wait for 2 seconds
 Then I click settings button
+And I wait for 2 seconds
 And I click integrations button
+And I wait for 2 seconds
 And I click add custom integration button
+And I wait for 2 seconds
 And I click on integration name
+And I wait for 2 seconds
 And I click on create button
 And I wait for 5 seconds
 `;
@@ -202,11 +215,16 @@ And I wait for 2 seconds
 When I enter email "<USERNAME>"
 And I enter password "<PASSWORD>"
 And I click sign in
+And I wait for 2 seconds
 Then I click settings button
+And I wait for 2 seconds
 And I click integrations button
+And I wait for 2 seconds
 And I click add custom integration button
+And I wait for 2 seconds
 And I click on integration name
 And I enter text "${integration.note}"
+And I wait for 2 seconds
 And I click on create button
 And I wait for 5 seconds
 `;
@@ -224,13 +242,20 @@ And I wait for 2 seconds
 When I enter email "<USERNAME>"
 And I enter password "<PASSWORD>"
 And I click sign in
+And I wait for 2 seconds
 Then I click settings button
+And I wait for 2 seconds
 And I click integrations button
+And I wait for 2 seconds
 And I click on an existing integration
+And I wait for 2 seconds
 And I click on integration name textarea
 And I enter text "${integration.name}"
+And I wait for 2 seconds
 And I click on save button
+And I wait for 2 seconds
 And I click settings button
+And I wait for 2 seconds
 And I click integrations button
 And I wait for 2 seconds
 `;
@@ -247,12 +272,19 @@ And I wait for 2 seconds
 When I enter email "<USERNAME>"
 And I enter password "<PASSWORD>"
 And I click sign in
+And I wait for 2 seconds
 Then I click settings button
+And I wait for 2 seconds
 And I click integrations button
+And I wait for 2 seconds
 And I click on an existing integration
+And I wait for 2 seconds
 And I click on integration name textarea
+And I wait for 2 seconds
 And I click on save button
+And I wait for 2 seconds
 And I click settings button
+And I wait for 2 seconds
 And I click integrations button
 And I wait for 2 seconds
 `;
@@ -269,13 +301,20 @@ And I wait for 2 seconds
 When I enter email "<USERNAME>"
 And I enter password "<PASSWORD>"
 And I click sign in
+And I wait for 2 seconds
 Then I click settings button
+And I wait for 2 seconds
 And I click integrations button
+And I wait for 2 seconds
 And I click on an existing integration
+And I wait for 2 seconds
 And I click on integration name textarea
 And I enter text "${integration.note}"
+And I wait for 2 seconds
 And I click on save button
+And I wait for 2 seconds
 And I click settings button
+And I wait for 2 seconds
 And I click integrations button
 And I wait for 2 seconds
 `;
@@ -294,13 +333,18 @@ And I enter password "<PASSWORD>"
 And I click sign in
 And I wait for 2 seconds
 Then I click pages button
+And I wait for 2 seconds
 And I click on existing page
+And I wait for 2 seconds
 And I click on page setting button
+And I wait for 2 seconds
 And I click on excerpt textarea
 And I enter text "${configPage.excerpt}"
+And I wait for 2 seconds
 And I click back button
 And I wait for 2 seconds 
 And I click on existing page
+And I wait for 2 seconds
 And I click on page setting button
 And I wait for 2 seconds
 `;
@@ -319,10 +363,14 @@ And I enter password "<PASSWORD>"
 And I click sign in
 And I wait for 2 seconds
 Then I click pages button
+And I wait for 2 seconds
 And I click on existing page
+And I wait for 2 seconds
 And I click on page setting button
+And I wait for 2 seconds
 And I click on excerpt textarea
 And I enter text "${configPage.note}"
+And I wait for 2 seconds
 And I click back button
 And I wait for 5 seconds
 `;
@@ -342,9 +390,13 @@ And I enter password "<PASSWORD>"
 And I click sign in
 And I wait for 2 seconds
 Then I click pages button
+And I wait for 2 seconds
 And I click on existing page
+And I wait for 2 seconds
 And I click on page setting button
+And I wait for 2 seconds
 And I enter page date "${configPage.email}"
+And I wait for 2 seconds
 And I click on excerpt textarea
 And I wait for 10 seconds
 `;
@@ -359,31 +411,30 @@ Scenario: Como usuario del sistema quiero crear un post
 Given I navigate to page "http://localhost:2368/ghost/#/signin"
 And I wait for 5 seconds
 When I enter email "<USERNAME>"
-And I wait for 2 seconds
 And I enter password "<PASSWORD>"
 And I wait for 2 seconds
 And I click sign in
-And I wait for 15 seconds
+And I wait for 2 seconds
 Then I click posts link
-And I wait for 15 seconds
+And I wait for 2 seconds
 And I click new post
-And I wait for 15 seconds
+And I wait for 2 seconds
 And I enter post title "${postScheduled.post_title}"
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I enter post description "${postScheduled.description}"
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I click publish post
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I click right now
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I click on schedule for later
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I enter post time "${postScheduled.time}"
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I click final review
-And I wait for 15 seconds
+And I wait for 2 seconds
 And I click schedule post
-And I wait for 15 seconds
+And I wait for 2 seconds
 `;
     fs.writeFileSync("features/apriori-create_post_scheduled.feature", datapoolpostScheduledFeature);
 
@@ -396,18 +447,17 @@ Scenario: Como usuario del sistema quiero crear un post
 Given I navigate to page "http://localhost:2368/ghost/#/signin"
 And I wait for 5 seconds
 When I enter email "<USERNAME>"
-And I wait for 2 seconds
 And I enter password "<PASSWORD>"
 And I wait for 2 seconds
 And I click sign in
-And I wait for 15 seconds
+And I wait for 2 seconds
 Then I click posts link
-And I wait for 15 seconds
+And I wait for 2 seconds
 And I click new post
-And I wait for 15 seconds
-And I enter post title "${postScheduled.note}"
+And I wait for 2 seconds
 And I enter post description "${postScheduled.note}"
-And I wait for 10 seconds
+And I enter post title "${postScheduled.note}"
+And I wait for 2 seconds
 And I click publish post
 `;
     fs.writeFileSync("features/apriori-create_post_scheduled_exceed.feature", datapoolpostScheduledExceedFeature);
@@ -426,17 +476,21 @@ And I wait for 2 seconds
 And I click sign in
 And I wait for 3 seconds
 Then I click posts link
+And I wait for 2 seconds
 And I click new post
+And I wait for 2 seconds
 And I enter post title "${postScheduled.page_url}"
 And I enter post description "${postScheduled.excerpt}"
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I click publish post
+And I wait for 2 seconds
 And I click right now
 And I wait for 1 seconds
 And I click on schedule for later
+And I wait for 2 seconds
 And I enter post date "${postScheduled.publish_date}"
 And I enter post time "${postScheduled.time}"
-And I wait for 10 seconds
+And I wait for 2 seconds
 And I click final review
 And I wait for 1 seconds
 And I click schedule post

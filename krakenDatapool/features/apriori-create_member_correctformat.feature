@@ -15,9 +15,9 @@ Feature: CreateMember
       And I wait for 10 seconds
       Then I click new member
       And I wait for 10 seconds
-      And I enter member name "Gwenette Schouthede"
+      And I enter member name "Maure Dumbrill"
       And I wait for 10 seconds
-      And I enter member email "gschouthede2n@bloglines.com"
+      And I enter member email "mdumbrille@usnews.com"
       And I wait for 10 seconds
       And I click save new member
       And I wait for 10 seconds

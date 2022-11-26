@@ -7,10 +7,14 @@ Feature: Crear integracion con nombre mayor a 191 caracteres
     When I enter email "<USERNAME>"
     And I enter password "<PASSWORD>"
     And I click sign in
+    And I wait for 2 seconds
     Then I click settings button
+    And I wait for 2 seconds
     And I click integrations button
+    And I wait for 2 seconds
     And I click add custom integration button
+    And I wait for 2 seconds
     And I click on integration name
-    And I enter text "Doloremque adipisci placeat placeat similique repellat molestias libero. Exercitationem tempora ad. Beatae necessitatibus laudantium repellat velit quis voluptatum sequi voluptas neque. Dicta dolores iure repudiandae assumenda iusto placeat cum. Facilis quaerat soluta reiciendis culpa doloremque itaque. Nulla porro consequatur ipsum accusamus illum adipisci. Eligendi tenetur iusto iure consequuntur aperiam. Architecto vero eius dolor ea. Adipisci excepturi laudantium labore. Similique nisi libero molestiae fugit. Praesentium reiciendis soluta molestias adipisci. Vel sed blanditiis dolor laudantium blanditiis dolor. Quo eaque provident quisquam laudantium blanditiis exercitationem."
+    And I enter text "Aliquam molestiae nulla beatae veniam error natus totam. Mollitia praesentium reiciendis sunt quia at dicta nisi aliquam blanditiis. Repellendus laudantium sint quisquam molestias deleniti harum ex. Totam adipisci magnam. Excepturi facere provident facilis laudantium distinctio tempora delectus similique optio. Amet dignissimos debitis assumenda. Praesentium consequuntur sunt maxime quasi quod. Mollitia aspernatur ex corrupti corrupti provident doloribus. Atque omnis blanditiis quasi non. Pariatur iste inventore autem sequi a fugit temporibus itaque. Dolores quo explicabo expedita incidunt laborum molestiae officia laborum voluptas."
     And I click on create button
     And I wait for 5 seconds

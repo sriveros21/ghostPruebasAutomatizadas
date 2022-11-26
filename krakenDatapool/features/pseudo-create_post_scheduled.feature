@@ -14,15 +14,15 @@ Feature: PostsCreate
     And I wait for 2 seconds
     And I click new post
     And I wait for 2 seconds
-    And I enter post title "essential-muscatel"
-    And I enter post description "Molestias quod consequatur esse sunt ut quidem ab dicta."
+    And I enter post title "feline-collectivization"
+    And I enter post description "Labore ducimus quas facilis iure repellendus sed in."
     And I wait for 3 seconds
     And I click publish post
     And I wait for 6 seconds
     And I click right now
     And I click on schedule for later
     And I wait for 5 seconds
-    And I enter post time "05:35"
+    And I enter post time "19:57"
     And I wait for 10 seconds
     And I click final review
     And I wait for 15 seconds
