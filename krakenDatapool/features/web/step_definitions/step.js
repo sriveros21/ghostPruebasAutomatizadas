@@ -178,7 +178,7 @@ Then('I click on delete confirm integration button', async function() {
 // -----------------------------------
 
 When('I click userpic', async function() {
-    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/section/div[2]/div[1]');
+    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/div/section/div[2]/div/div/div[1]/div[1]');
     return await element.click();
 })
 
@@ -197,7 +197,17 @@ When('I enter post title {string}', async function (posttitle) {
     return await element.setValue(posttitle);
 });
 
+When('I enter random post title {kraken-string}', async function (posttitle) {
+    let element = await this.driver.$('textarea');
+    return await element.setValue(posttitle);
+});
+
 When('I enter post description {string}', async function (postdescription) {
+    let element = await this.driver.$('div[data-placeholder="Begin writing your post..."]');
+    return await element.setValue(postdescription);
+});
+
+When('I enter random post description {kraken-string}', async function (postdescription) {
     let element = await this.driver.$('div[data-placeholder="Begin writing your post..."]');
     return await element.setValue(postdescription);
 });
@@ -339,12 +349,38 @@ Then('I click on schedule for later', async function () {
 });
 
 When('I enter post time {string}', async function (posttime) {
-    let element = await this.driver.$('.gh-date-time-picker-time');
+    let element = await this.driver.$('/html/body/div[4]/div/div/div/div[2]/div[3]/div/div/div/fieldset/div[2]/div[2]/input');
     return await element.setValue(posttime);
 });
 
+When('I enter random post time {kraken-string}', async function (posttime) {
+    let element = await this.driver.$('/html/body/div[4]/div/div/div/div[2]/div[3]/div/div/div/fieldset/div[2]/div[2]/input');
+    return await element.setValue(posttime);
+});
+
+When('I enter page time {string}', async function (posttime) {
+    let element = await this.driver.$('/html/body/div[2]/div/main/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/input');
+    return await element.setValue(posttime);
+});
+
+When('I enter page date {string}', async function (postdate) {
+    let element = await this.driver.$('/html/body/div[2]/div/main/div[1]/div/div/div/div[2]/form/div[2]/div/div[1]/div/div[1]/div/input');
+    return await element.setValue(postdate);
+});
+
+When('I enter post date {string}', async function (postdate) {
+    let element = await this.driver.$('/html/body/div[4]/div/div/div/div[2]/div[3]/div/div/div/fieldset/div[2]/div[1]/div[1]/div/input');
+    return await element.setValue(postdate);
+});
+
+When('I enter page url {string}', async function (postdate) {
+    let element = await this.driver.$('/html/body/div[2]/div/main/div[1]/div/div/div/div[2]/form/div[1]/div/input');
+    return await element.setValue(postdate);
+});
+
+
 When('I click schedule post', async function() {
-    let element = await this.driver.$('button.gh-btn-large');
+    let element = await this.driver.$('/html/body/div[4]/div/div/div/div[2]/button[1]/span');
     return await element.click();
 })
 
@@ -359,12 +395,12 @@ When('I enter location {string}', async function (location) {
 });
 
 When('I click save user changes', async function() {
-    let element = await this.driver.$('/html/body/div[2]/div/main/section/header/section/button');
+    let element = await this.driver.$('/html/body/div[2]/div/main/section/div/header/section/button/span');
     return await element.click();
 })
 
 When('I click staff link', async function() {
-    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[5]/a');
+    let element = await this.driver.$('/html/body/div[2]/div/main/section/div/header/div/div/a[2]');
     return await element.click();
 })
 
@@ -377,3 +413,97 @@ Then('I click testpost', async function () {
     let element = await this.driver.$('/html/body/div[2]/div/main/section/section/ol/li[2]/a[1]/h3');
     return await element.click();
 });
+
+//Steps Escenarios Data
+
+
+When('I enter a random name as member name {kraken-string}', async function (membername) {
+    let element = await this.driver.$('#member-name');
+    return await element.setValue(membername);
+});
+
+When('I enter a random email as member email {kraken-string}', async function (memberemail) {
+    let element = await this.driver.$('#member-email');
+    return await element.setValue(memberemail);
+});
+
+When('I enter a number as member name {kraken-string}', async function (membername) {
+    let element = await this.driver.$('#member-name');
+    return await element.setValue(membername);
+});
+
+When('I enter a number as member email {kraken-string}', async function (memberemail) {
+    let element = await this.driver.$('#member-email');
+    return await element.setValue(memberemail);
+});
+
+When('I enter an email as location {kraken-string}', async function (location) {
+    let element = await this.driver.$('#user-location');
+    return await element.setValue(location);
+});
+
+When('I enter numbers in name field {kraken-string}', async function (name) {
+    let element = await this.driver.$('#user-name');
+    return await element.setValue(name);
+});
+
+When('I enter numbers in email field {kraken-string}', async function (email) {
+    let element = await this.driver.$('#user-email');
+    return await element.setValue(email);
+});
+
+When('I enter an email in facebook profile field {kraken-string}', async function (facebook) {
+    let element = await this.driver.$('#user-facebook');
+    return await element.setValue(facebook);
+});
+
+When('I enter an email in twitter profile field {kraken-string}', async function (twiter) {
+    let element = await this.driver.$('#user-twitter');
+    return await element.setValue(twiter);
+});
+
+When('I enter numbers in website field {kraken-string}', async function (website) {
+    let element = await this.driver.$('#user-website');
+    return await element.setValue(website);
+});
+
+When('I enter member note {string}', async function (note) {
+    let element = await this.driver.$('#member-note');
+    return await element.setValue(note);
+});
+
+When('I enter user name {string}', async function (name) {
+    let element = await this.driver.$('#user-name');
+    return await element.setValue(name);
+});
+
+When('I enter user email {string}', async function (email) {
+    let element = await this.driver.$('#user-email');
+    return await element.setValue(email);
+});
+
+When('I enter bio {string}', async function (bio) {
+    let element = await this.driver.$('#user-bio');
+    return await element.setValue(bio);
+});
+
+When('I enter a random page time {kraken-string}', async function (posttime) {
+    let element = await this.driver.$('/html/body/div[2]/div/main/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/input');
+    return await element.setValue(posttime);
+});
+
+When('I enter a random page date {kraken-string}', async function (postdate) {
+    let element = await this.driver.$('/html/body/div[2]/div/main/div[1]/div/div/div/div[2]/form/div[2]/div/div[1]/div/div[1]/div/input');
+    return await element.setValue(postdate);
+});
+
+When('I enter a random post date {kraken-string}', async function (postdate) {
+    let element = await this.driver.$('/html/body/div[4]/div/div/div/div[2]/div[3]/div/div/div/fieldset/div[2]/div[1]/div[1]/div/input');
+    return await element.setValue(postdate);
+});
+
+When('I enter a random page url {kraken-string}', async function (postdate) {
+    let element = await this.driver.$('/html/body/div[2]/div/main/div[1]/div/div/div/div[2]/form/div[1]/div/input');
+    return await element.setValue(postdate);
+});
+
