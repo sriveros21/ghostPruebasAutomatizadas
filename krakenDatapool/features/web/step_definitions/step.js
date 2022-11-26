@@ -178,7 +178,7 @@ Then('I click on delete confirm integration button', async function() {
 // -----------------------------------
 
 When('I click userpic', async function() {
-    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/section/div[2]/div[1]');
+    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/div/section/div[2]/div/div/div[1]/div[1]');
     return await element.click();
 })
 
@@ -395,12 +395,12 @@ When('I enter location {string}', async function (location) {
 });
 
 When('I click save user changes', async function() {
-    let element = await this.driver.$('/html/body/div[2]/div/main/section/header/section/button');
+    let element = await this.driver.$('/html/body/div[2]/div/main/section/div/header/section/button/span');
     return await element.click();
 })
 
 When('I click staff link', async function() {
-    let element = await this.driver.$('/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[5]/a');
+    let element = await this.driver.$('/html/body/div[2]/div/main/section/div/header/div/div/a[2]');
     return await element.click();
 })
 
