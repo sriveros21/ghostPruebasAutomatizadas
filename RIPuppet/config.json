@@ -1,0 +1,8 @@
+{
+    "url": "http://localhost:2368/ghost",
+    "headless": true,
+    "depthLevels": 2,
+    "inputValues": true,
+    "values": {"ember6":"sr@34.com", "ember8":"3102326449"},
+    "browsers": ["chromium", "firefox"]
+}
